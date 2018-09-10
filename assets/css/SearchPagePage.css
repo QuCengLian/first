@@ -1,0 +1,5319 @@
+.field.Select>.input>.container>.value {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.field.Select .flyout.option {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none
+}
+
+.customer-facing .field.Select:not(.icon) {
+    min-width: 100px
+}
+
+.customer-facing .field.Select.align-text-right .Flyout .option,
+.customer-facing .field.Select.align-text-right .input .value,
+.customer-facing .field.Select.align-text-right .input select {
+    text-align: right
+}
+
+.customer-facing .field.Select.align-text-center .Flyout .option,
+.customer-facing .field.Select.align-text-center .input .value,
+.customer-facing .field.Select.align-text-center .input select {
+    text-align: center
+}
+
+.customer-facing .field.Select.icon>span.input .container>.value {
+    line-height: 0
+}
+
+.customer-facing .field.Select.icon>span.input .container>.arrow {
+    width: 30px;
+    top: 4px
+}
+
+.customer-facing .field.Select.icon span.input .option {
+    line-height: 0
+}
+
+.customer-facing .field.Select.icon span.input .option svg+span {
+    margin-left: 5px
+}
+
+.customer-facing .field.Select.icon span.input .option.selected svg.checkmark {
+    top: 17px
+}
+
+.customer-facing .field.Select span.input {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.customer-facing .field.Select:not(.label-left)>span.input {
+    width: 100%
+}
+
+.customer-facing .field.Select>span.input>.container {
+    display: block;
+    position: relative
+}
+
+.customer-facing .field.Select span.input>.container>.value {
+    white-space: pre;
+    display: block;
+    overflow: hidden;
+    text-indent: 2px;
+    text-overflow: ellipsis
+}
+
+.customer-facing .field.Select>span.input>.container>.value {
+    margin-right: 32px
+}
+
+.customer-facing .field.Select>span.input .container>.arrow {
+    width: 24px;
+    height: 14px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    pointer-events: none
+}
+
+.customer-facing .field.Select>span.input .container>.arrow svg {
+    width: 12px;
+    height: 19px;
+    fill: #585858
+}
+
+.customer-facing .field.Select>span.input .Flyout {
+    width: 100%;
+    position: absolute;
+    left: -1px;
+    bottom: 0
+}
+
+.customer-facing .field.Select>span.input .Flyout .flyout {
+    border: 1px solid #ccc;
+    background: #fff;
+    border-top-color: #ccc;
+    min-width: 100%;
+    box-shadow: none
+}
+
+.customer-facing .field.Select:not(.no-scroll) .flyout .container {
+    max-height: 304px;
+    overflow: auto
+}
+
+@media (max-height:400px) {
+    .customer-facing .field.Select:not(.no-scroll) .flyout .container {
+        max-height: 190px
+    }
+}
+
+.customer-facing .field.Select span.input>div.dijit>span.popup {
+    position: relative;
+    display: block;
+    clear: both;
+    height: 0 !important;
+    overflow: visible;
+    min-width: 100%;
+    z-index: 10000 !important
+}
+
+.customer-facing .field.Select span.input>div.dijitComboBox,
+.customer-facing .field.Select span.input>div.dijitDateTextBox {
+    display: block
+}
+
+.customer-facing .field.Select span.input .Flyout.v83.standard>.flyout>.container .option,
+.customer-facing .field.Select span.input .option {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    padding: 12px 38px 12px 10px;
+    font-size: 1rem;
+    float: none;
+    text-align: left;
+    color: #333;
+    white-space: pre
+}
+
+.customer-facing .field.Select span.input .Flyout.v83.standard>.flyout>.container .option span,
+.customer-facing .field.Select span.input .option span {
+    width: 100%
+}
+
+.customer-facing .field.Select span.input .option.selected {
+    color: inherit
+}
+
+.customer-facing .field.Select span.input .option.selected svg.checkmark {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    fill: #65c0cf
+}
+
+.customer-facing .field.Select span.input .option.focus {
+    background-color: #f5f5f5;
+    color: #333
+}
+
+.customer-facing .field.Select.disabled {
+    color: #ccc
+}
+
+.customer-facing .field.Select.disabled>span.input .arrow svg {
+    fill: #ccc
+}
+
+.customer-facing .field.Select>span.input select {
+    display: none
+}
+
+.customer-facing .field.Select.touch>span.input {
+    border: 0;
+    background-color: transparent;
+    padding: 0
+}
+
+.customer-facing .field.Select.touch>span.input>.container {
+    display: none
+}
+
+.customer-facing .field.Select.touch>span.input>select {
+    display: block;
+    width: 100%
+}
+
+.customer-facing .field.Select.compact .input {
+    padding: 7px 8px 8px
+}
+
+.customer-facing .field.Select.compact .input .container .value {
+    font-size: 14px
+}
+
+.customer-facing .field.Select.nativeChooser.compact .input .container {
+    padding: 7px 8px 8px
+}
+
+.customer-facing .field.Select.nativeChooser.compact .input .container .arrow svg {
+    margin-top: -3px
+}
+
+.customer-facing .field.Select.nativeChooser.compact .input select.select {
+    padding: 6px 7px 7px
+}
+
+.customer-facing .field.Select.nativeChooser .input {
+    padding: 0;
+    position: relative
+}
+
+.customer-facing .field.Select.nativeChooser .input .container {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 8px 11px;
+    box-sizing: border-box
+}
+
+.customer-facing .field.Select.nativeChooser .input .container .arrow {
+    top: 10px;
+    right: 8px
+}
+
+.customer-facing .field.Select.nativeChooser>span.input select {
+    display: block;
+    opacity: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 100%;
+    padding: 10px 32px 9px 8px;
+    margin: 0
+}
+
+.customer-facing .field.Select.nativeChooser .Flyout {
+    display: none !important
+}
+
+.customer-facing .field.Select.defaultOption span.input>.container>.value,
+.customer-facing .field.Select span.input>.container>.value.defaultOption {
+    color: #999
+}
+
+.PhotoSlider {
+    overflow: hidden
+}
+
+.PhotoSlider .scrollable {
+    height: 100%
+}
+
+.PhotoSlider .slider-item {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.PhotoSlider.slide-preview .slider-item {
+    border-right: 1px solid #fff;
+    box-sizing: border-box
+}
+
+.PhotoSlider .transition {
+    transition: transform .2s cubic-bezier(.58, .92, .57, .92)
+}
+
+.FavoriteExtension {
+    display: inline-block;
+    margin-left: 8px
+}
+
+.FavoriteExtension .favorite-icon {
+    display: block
+}
+
+.FavoriteExtension.fav-on .favorite-icon {
+    fill: #e62e2e
+}
+
+.FavoriteExtension.fav-off .favorite-icon {
+    fill: rgba(0, 0, 0, .5)
+}
+
+.FavoriteExtension.fav-off .favorite-icon:hover {
+    fill: rgba(0, 0, 0, .7)
+}
+
+.favorite-actionable-outline {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #fff
+}
+
+.MultiUnitFlyout {
+    background-color: #fff;
+    cursor: default;
+    overflow-y: auto;
+    max-height: 300px;
+    max-width: 200px
+}
+
+.MultiUnitFlyout .subtitle {
+    color: #ccc;
+    padding-bottom: .5rem;
+    font-size: .875rem
+}
+
+.mobile.MultiUnitFlyout .subtitle {
+    color: #000;
+    font-weight: 700
+}
+
+.mobile.MultiUnitFlyout .multiUnitRowWrapper {
+    max-height: 147px;
+    overflow: scroll
+}
+
+.MultiUnitFlyout .multiUnitRow {
+    width: 100%;
+    padding: .5rem 0;
+    font-size: 1rem;
+    text-align: left;
+    color: #0c82a5;
+    border-bottom: 1px solid #f5f5f5;
+    white-space: nowrap
+}
+
+.MultiUnitFlyout .multiUnitRow div {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.MultiUnitFlyout .multiUnitRow:last-child {
+    border-bottom: none;
+    padding-bottom: none
+}
+
+.MultiUnitFlyout .multiUnitRow .amenity {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.MultiUnitFlyout .multiUnitRow .amenity .price {
+    font-weight: 700
+}
+
+.MultiUnitFlyout .showMore {
+    color: #0c82a5
+}
+
+.MultiUnitFlyout .showMore .showMoreIcon {
+    fill: #0c82a5;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle
+}
+
+.MultiUnitFlyout .showMore .showMoreIcon.rotate {
+    transform: scaleY(-1)
+}
+
+.Flyout.v83.standard.MultiUnitFlyoutContainer>.flyout {
+    padding-right: 0
+}
+
+.Flyout.v83.standard.MultiUnitFlyoutContainer>.flyout .container>* {
+    padding-right: 1.875rem
+}
+
+.Pushpin {
+    line-height: 1;
+    height: 0
+}
+
+.Pushpin .avmPin {
+    top: -10px;
+    left: -10px;
+    position: relative;
+    width: 0
+}
+
+.Pushpin .avmPin.selected {
+    top: -12px;
+    left: -12px
+}
+
+.Pushpin .avmPin.selected .avm {
+    background: #e62e2e;
+    border: 2px solid #fff;
+    width: 16px;
+    height: 16px
+}
+
+.Pushpin .avmPin.hovered .avm {
+    background: #333
+}
+
+.Pushpin .PushpinContent {
+    display: inline-block;
+    top: -23px;
+    left: -50%;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 12px
+}
+
+.Pushpin .PushpinContent.avm {
+    width: 12px;
+    height: 12px;
+    top: auto;
+    left: auto;
+    background: #727272;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    z-index: 97;
+    box-sizing: border-box
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content,
+.Pushpin .PushpinContent .pushpin-content {
+    border-radius: 3px;
+    background: #2e7e36;
+    border: 1px solid #2e7e36;
+    cursor: pointer
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content .logo-R,
+.Pushpin .PushpinContent .pushpin-content .logo-R {
+    height: 10px !important;
+    width: 10px !important;
+    fill: #c82021 !important;
+    stroke: none;
+    background-color: #fff;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    position: static;
+    vertical-align: bottom;
+    padding: 3px 2px
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content .price,
+.Pushpin .PushpinContent .pushpin-content .price {
+    color: #fff;
+    font-weight: 700;
+    padding: 3px 3px 2px;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 11px
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.mobile .logo-R,
+.Pushpin .PushpinContent .pushpin-content.mobile .logo-R {
+    padding: 4px 2px 3px
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.mobile .price,
+.Pushpin .PushpinContent .pushpin-content.mobile .price {
+    padding: 3px
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.selected,
+.Pushpin .PushpinContent .pushpin-content.selected {
+    background: #e62e2e;
+    border: 1px solid #e62e2e
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.selected:after,
+.Pushpin .PushpinContent .inner-pushpin-content.selected:before,
+.Pushpin .PushpinContent .pushpin-content.selected:after,
+.Pushpin .PushpinContent .pushpin-content.selected:before {
+    border-top-color: #e62e2e
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.x-out,
+.Pushpin .PushpinContent .pushpin-content.x-out {
+    opacity: .9;
+    background: #a1cda5;
+    border: 1px solid #a1cda5
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.x-out:after,
+.Pushpin .PushpinContent .inner-pushpin-content.x-out:before,
+.Pushpin .PushpinContent .pushpin-content.x-out:after,
+.Pushpin .PushpinContent .pushpin-content.x-out:before {
+    border-top-color: #a1cda5
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.x-out.solds,
+.Pushpin .PushpinContent .pushpin-content.x-out.solds {
+    background: #abc8f3;
+    border: 1px solid #abc8f3
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.x-out.solds:after,
+.Pushpin .PushpinContent .inner-pushpin-content.x-out.solds:before,
+.Pushpin .PushpinContent .pushpin-content.x-out.solds:after,
+.Pushpin .PushpinContent .pushpin-content.x-out.solds:before {
+    border-top-color: #abc8f3
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.solds,
+.Pushpin .PushpinContent .pushpin-content.solds {
+    background: #5d8acb;
+    border: 1px solid #5d8acb
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.solds:after,
+.Pushpin .PushpinContent .inner-pushpin-content.solds:before,
+.Pushpin .PushpinContent .pushpin-content.solds:after,
+.Pushpin .PushpinContent .pushpin-content.solds:before {
+    border-top-color: #5d8acb
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.viewed,
+.Pushpin .PushpinContent .pushpin-content.viewed {
+    background: #629e68;
+    border: 1px solid #629e68
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.viewed:after,
+.Pushpin .PushpinContent .inner-pushpin-content.viewed:before,
+.Pushpin .PushpinContent .pushpin-content.viewed:after,
+.Pushpin .PushpinContent .pushpin-content.viewed:before {
+    border-top-color: #629e68
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.sold-viewed,
+.Pushpin .PushpinContent .pushpin-content.sold-viewed {
+    background: #85a7d8;
+    border: 1px solid #85a7d8
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content.sold-viewed:after,
+.Pushpin .PushpinContent .inner-pushpin-content.sold-viewed:before,
+.Pushpin .PushpinContent .pushpin-content.sold-viewed:after,
+.Pushpin .PushpinContent .pushpin-content.sold-viewed:before {
+    border-top-color: #85a7d8
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content:after,
+.Pushpin .PushpinContent .inner-pushpin-content:before,
+.Pushpin .PushpinContent .white-border {
+    top: calc(100% - 1px);
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content:before {
+    border-top-color: #2e7e36;
+    border-width: 4px;
+    margin-left: -4px
+}
+
+.Pushpin .PushpinContent .inner-pushpin-content:after {
+    border-top-color: #2e7e36;
+    border-width: 3.5px;
+    margin-left: -3px
+}
+
+.Pushpin .PushpinContent .white-border {
+    border-top-color: #fff;
+    border-width: 4px;
+    margin-left: -4px;
+    top: 100%
+}
+
+.Pushpin .upper-right-badge {
+    position: absolute;
+    top: -4px;
+    stroke: #fff;
+    stroke-width: 3px;
+    height: 10px;
+    width: 10px;
+    left: calc(100% - 4px)
+}
+
+.Pushpin .Hot svg,
+.Pushpin .Open svg {
+    position: absolute;
+    left: -1px;
+    top: -50%;
+    border: 1px solid #fff;
+    border-radius: 2px
+}
+
+.Pushpin .Flyout {
+    cursor: default
+}
+
+.Pushpin .Flyout.position-left {
+    top: -13px;
+    left: -30px
+}
+
+.Pushpin .Flyout.position-right {
+    top: -13px;
+    left: 30px
+}
+
+.Pushpin .Flyout.position-above {
+    top: -23px;
+    left: 0
+}
+
+.Pushpin .Flyout.position-below {
+    top: 0;
+    left: 0
+}
+
+.hotbadge {
+    fill: #fa7b20
+}
+
+.xout-alt {
+    fill: #585858
+}
+
+.favorite-alt {
+    fill: #e62e2e
+}
+
+.rating {
+    fill: #fda302
+}
+
+.avm_price {
+    position: relative;
+    top: 18px;
+    left: -20px;
+    color: #585858;
+    font-size: 11px;
+    display: inline;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding: 0 1px
+}
+
+.tooltip {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 800;
+    bottom: 125%;
+    margin-left: -25px
+}
+
+.tooltip:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #555 transparent transparent
+}
+
+.name-and-info {
+    vertical-align: middle;
+    line-height: 1.4;
+    font-size: 14px
+}
+
+.name-and-info .school-name {
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.name-and-info .school-name,
+.name-and-info .sub-info {
+    display: block
+}
+
+.name-and-info .gs-rating-row {
+    padding-top: 8px
+}
+
+.name-and-info .rating {
+    display: inline-block
+}
+
+.name-and-info .star-rating {
+    padding-top: 5px
+}
+
+.name-and-info .star-rating .SvgIcon {
+    height: 16px;
+    width: 16px;
+    vertical-align: text-top;
+    fill: #fad700
+}
+
+.name-and-info .star-rating .SvgIcon.empty {
+    fill: #c2c2c2
+}
+
+.SchoolFlyoutContent {
+    display: flex
+}
+
+.SchoolFlyoutContent .status {
+    display: none
+}
+
+.SchoolFlyoutContent .nextButton,
+.SchoolFlyoutContent .prevButton {
+    width: 22px;
+    height: 22px;
+    display: -moz-inline-box;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    fill: #727272
+}
+
+.SchoolFlyoutContent .address {
+    color: #727272
+}
+
+.SchoolFlyoutContent a.Button {
+    margin-top: 20px
+}
+
+.school-marker .school-marker-tooltip {
+    position: absolute;
+    left: -70px;
+    top: 5px;
+    width: 140px;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    font-weight: 700
+}
+
+.school-marker .school-pin.SvgIcon {
+    fill: #727272;
+    height: 22px;
+    width: 17px;
+    stroke: #fff;
+    stroke-width: 1px
+}
+
+.school-marker .school-icon.SvgIcon {
+    fill: #fff;
+    height: 8px;
+    width: 11px;
+    position: absolute;
+    left: 3px;
+    top: 5px
+}
+
+.school-marker .school-dot {
+    display: none
+}
+
+.school-marker .school-button {
+    position: absolute;
+    left: -7px;
+    top: -21px
+}
+
+.school-marker.selected .school-button {
+    left: -9px;
+    top: -27px
+}
+
+.school-marker.selected .school-pin.SvgIcon {
+    fill: #c82021;
+    height: 28px;
+    width: 21px;
+    stroke: #fff;
+    stroke-width: 1px
+}
+
+.school-marker.selected .school-icon.SvgIcon {
+    fill: #fff;
+    height: 10px;
+    width: 13px;
+    position: absolute;
+    left: 4px;
+    top: 6px
+}
+
+.school-marker .Flyout.position-left {
+    top: -15px;
+    left: -15px
+}
+
+.school-marker .Flyout.position-right {
+    top: -15px;
+    left: 15px
+}
+
+.school-marker .Flyout.position-above {
+    top: -30px;
+    left: 1.5px
+}
+
+.school-marker .Flyout.position-below {
+    top: 10px;
+    left: 1.5px
+}
+
+.school-markers-container.school-dots .school-marker .school-button {
+    left: -3px;
+    top: -7px
+}
+
+.school-markers-container.school-dots .school-marker .school-icon,
+.school-markers-container.school-dots .school-marker .school-pin {
+    display: none
+}
+
+.school-markers-container.school-dots .school-marker .school-dot {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #727272;
+    border: 1px solid #fff
+}
+
+.school-markers-container.school-dots .school-marker.selected .school-button,
+.school-markers-container.school-dots .school-marker.selected:hover .school-button {
+    left: -9px;
+    top: -27px
+}
+
+.school-markers-container.school-dots .school-marker.selected .school-pin,
+.school-markers-container.school-dots .school-marker.selected:hover .school-pin {
+    display: block
+}
+
+.school-markers-container.school-dots .school-marker.selected .school-pin.SvgIcon,
+.school-markers-container.school-dots .school-marker.selected:hover .school-pin.SvgIcon {
+    fill: #c82021;
+    height: 28px;
+    width: 21px;
+    stroke: #fff;
+    stroke-width: 1px
+}
+
+.school-markers-container.school-dots .school-marker.selected .school-icon,
+.school-markers-container.school-dots .school-marker.selected:hover .school-icon {
+    display: block
+}
+
+.school-markers-container.school-dots .school-marker.selected .school-icon.SvgIcon,
+.school-markers-container.school-dots .school-marker.selected:hover .school-icon.SvgIcon {
+    fill: #fff;
+    height: 10px;
+    width: 13px;
+    position: absolute;
+    left: 4px;
+    top: 6px
+}
+
+.school-markers-container.school-dots .school-marker.selected .school-dot,
+.school-markers-container.school-dots .school-marker.selected:hover .school-dot {
+    display: none
+}
+
+.school-markers-container.school-dots .school-marker:hover .school-button {
+    left: -7px;
+    top: -21px
+}
+
+.school-markers-container.school-dots .school-marker:hover .school-pin {
+    display: block
+}
+
+.school-markers-container.school-dots .school-marker:hover .school-pin.SvgIcon {
+    fill: #727272;
+    height: 22px;
+    width: 17px;
+    stroke: #fff;
+    stroke-width: 1px
+}
+
+.school-markers-container.school-dots .school-marker:hover .school-icon {
+    display: block
+}
+
+.school-markers-container.school-dots .school-marker:hover .school-icon.SvgIcon {
+    fill: #fff;
+    height: 8px;
+    width: 11px;
+    position: absolute;
+    left: 3px;
+    top: 5px
+}
+
+.school-markers-container.school-dots .school-marker:hover .school-dot {
+    display: none
+}
+
+.DetailsComponent .detail {
+    display: flex
+}
+
+.DetailsComponent .value {
+    font-size: 16px
+}
+
+.DetailsComponent .label {
+    color: #999
+}
+
+.DetailsComponent .sub-label {
+    color: #75b945
+}
+
+.DetailsComponent .sub-label.negative {
+    color: #fd3316
+}
+
+.DetailsComponent .divider {
+    flex: 1;
+    min-width: 1px;
+    max-width: 1px;
+    background: #e2e2e2;
+    margin: 0 22px;
+    height: 35px
+}
+
+.DetailsComponent.vertical {
+    font-size: 16px
+}
+
+.DetailsComponent.vertical .detail {
+    justify-content: space-between;
+    margin-bottom: 5px
+}
+
+.DetailsComponent.horizontal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px
+}
+
+.DetailsComponent.horizontal .detail {
+    flex-direction: column
+}
+
+.DetailsComponent.horizontal .value {
+    order: 1
+}
+
+.DetailsComponent.horizontal .label {
+    order: 2
+}
+
+@media screen and (max-width:899px) {
+    .DetailsComponent.horizontal {
+        font-size: 12px
+    }
+    .DetailsComponent .divider {
+        margin: 0 12px
+    }
+}
+
+.OfferInsightsCard {
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2);
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    position: relative
+}
+
+.OfferInsightsCard.hovered,
+.OfferInsightsCard.selected {
+    box-shadow: 0 0 0 3px #999
+}
+
+.OfferInsightsCard.small {
+    box-shadow: none;
+    text-align: left;
+    width: 320px;
+    padding: 0
+}
+
+.OfferInsightsCard.small .offer-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px
+}
+
+.OfferInsightsCard.small .offer-heading .offer-result-line,
+.OfferInsightsCard.small .offer-heading .offer-value {
+    margin: 0
+}
+
+.OfferInsightsCard.small .home-stats {
+    margin-bottom: 14px
+}
+
+.OfferInsightsCard.small .agent-photo {
+    margin-right: .75rem
+}
+
+.OfferInsightsCard.small .Button {
+    margin-top: 14px;
+    width: 100%
+}
+
+.OfferInsightsCard .offer-value {
+    font-size: 20px
+}
+
+.OfferInsightsCard .sale-date {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    color: #999
+}
+
+.OfferInsightsCard .sold-price {
+    margin-left: 5px
+}
+
+.OfferInsightsCard .offer-result-line {
+    margin-bottom: 22px;
+    font-weight: 600
+}
+
+.OfferInsightsCard .offer-result:before {
+    width: 8px;
+    height: 8px;
+    background: #999;
+    content: "";
+    display: inline-block;
+    margin-bottom: 1px;
+    margin-right: 6px;
+    border-radius: 50%
+}
+
+.OfferInsightsCard .offer-result.won:before {
+    background: #38b118
+}
+
+.OfferInsightsCard .home-stats,
+.OfferInsightsCard .offer-value {
+    margin-bottom: 5px
+}
+
+.OfferInsightsCard .offer-insight {
+    font-size: 16px;
+    margin-top: 19px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    position: relative
+}
+
+.OfferInsightsCard .offer-insight .more-link {
+    color: #0c82a5
+}
+
+.OfferInsightsCard .offer-insight:after {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background: #f5f5f5;
+    transform: rotate(45deg);
+    margin-top: 8px;
+    content: ""
+}
+
+.OfferInsightsCard .agent-info {
+    margin-top: 14px;
+    display: flex
+}
+
+.OfferInsightsCard .agent-photo {
+    width: 40px;
+    height: 40px;
+    border: none
+}
+
+.OfferInsightsCard .agent-photo .photo-container {
+    overflow: visible
+}
+
+.OfferInsightsCard .agent-photo .photo {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%
+}
+
+.OfferInsightsCard .agent-details {
+    font-size: 16px;
+    line-height: 20px
+}
+
+.OfferInsightsCard .agent-detail-title {
+    font-size: 14px
+}
+
+.OfferInsightsCard .agent-only {
+    color: #ff5655;
+    font-size: .75rem
+}
+
+.OfferInsightsCard .ExpandableText.truncated .expansion {
+    display: none
+}
+
+@media screen and (max-width:899px) {
+    .OfferInsightsCard {
+        font-size: 12px
+    }
+    .OfferInsightsCard .offer-value {
+        font-size: 16px
+    }
+    .OfferInsightsCard .offer-result {
+        font-size: 12px
+    }
+}
+
+.OfferInsightsCard .map {
+    display: block;
+    width: 100%
+}
+
+.OfferInsightMarker {
+    z-index: 97
+}
+
+.OfferInsightMarker .SvgIcon {
+    fill: #fff;
+    background: #42c29e;
+    border-radius: 50%
+}
+
+.OfferInsightMarker.selected {
+    z-index: 106
+}
+
+.OfferInsightMarker.selected .SvgIcon {
+    background-color: #c72020
+}
+
+.OfferInsightMarker .icon-button {
+    position: absolute;
+    left: -9px;
+    top: -9px
+}
+
+.OfferInsightMarker .marker-tooltip {
+    position: absolute;
+    left: -36px;
+    top: 14px;
+    width: 80px;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 700
+}
+
+.OfferInsightMarker .Flyout {
+    cursor: default
+}
+
+.OfferInsightMarker .Flyout.position-left {
+    top: -3px;
+    left: -12px
+}
+
+.OfferInsightMarker .Flyout.position-right {
+    top: -3px;
+    left: 13px
+}
+
+.OfferInsightMarker .Flyout.position-above {
+    top: -25px
+}
+
+.OfferInsightMarker .Flyout.position-below {
+    top: 20px
+}
+
+.removeMapOutlineButton .content {
+    padding: 0 3px
+}
+
+.dropDownModeOption {
+    padding: .5rem 0;
+    color: #0c82a5;
+    border-bottom: 1px solid #f5f5f5;
+    position: relative;
+    dislpay: block;
+    width: 100%;
+    text-align: left
+}
+
+.dropDownModeOption .rfSvg.checkmark {
+    position: absolute;
+    right: 0
+}
+
+.dropDownModeOption.hover {
+    color: #65c0cf
+}
+
+.dropDownModeOption.selected {
+    color: #585858;
+    background: transparent
+}
+
+.dropDownModeOption.hover.selected {
+    color: #585858
+}
+
+.dropDownModeOption:last-child {
+    border-bottom: none
+}
+
+.dropDownModeToggler .Flyout>.flyout {
+    padding: 0
+}
+
+.dropDownModeToggler .map_icon_flyup {
+    margin-left: 3px
+}
+
+.modeTogglerFlyout {
+    min-width: 100px
+}
+
+.modeTogglerFlyout .inline-block,
+.modeTogglerFlyout .inline-block-text {
+    display: inline-block
+}
+
+.dropDownModeOption:hover {
+    color: #e86828
+}
+
+.ZoomControl:hover {
+    color: #186298
+}
+
+.ZoomControl .zoomMinusControlButton,
+.ZoomControl .zoomPlusControlButton {
+    background-color: #fff
+}
+
+.ZoomControl .zoomMinusControlButton .Button.MinusSignButton,
+.ZoomControl .zoomMinusControlButton .Button.PlusSignButton,
+.ZoomControl .zoomPlusControlButton .Button.MinusSignButton,
+.ZoomControl .zoomPlusControlButton .Button.PlusSignButton {
+    padding: 10px 11px;
+    line-height: 12px
+}
+
+.ZoomControl .zoomMinusControlButton .Button.MinusSignButton .minusSign,
+.ZoomControl .zoomMinusControlButton .Button.MinusSignButton .plusSign,
+.ZoomControl .zoomMinusControlButton .Button.PlusSignButton .minusSign,
+.ZoomControl .zoomMinusControlButton .Button.PlusSignButton .plusSign,
+.ZoomControl .zoomPlusControlButton .Button.MinusSignButton .minusSign,
+.ZoomControl .zoomPlusControlButton .Button.MinusSignButton .plusSign,
+.ZoomControl .zoomPlusControlButton .Button.PlusSignButton .minusSign,
+.ZoomControl .zoomPlusControlButton .Button.PlusSignButton .plusSign {
+    height: 10px;
+    width: 10px;
+    vertical-align: middle
+}
+
+.ZoomControl .zoomMinusControlButton {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px
+}
+
+.ZoomControl .zoomPlusControlButton {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px
+}
+
+.drawButton .content {
+    padding: 0 3px
+}
+
+.mapControls {
+    margin-right: 20px;
+    margin-bottom: 16px;
+    z-index: 15;
+    position: absolute;
+    right: 0;
+    bottom: 14px
+}
+
+.mapControls>* {
+    display: inline-block
+}
+
+.mapControls .mapControl {
+    vertical-align: bottom
+}
+
+.mapControls .mapControl .controlWrapper {
+    border-radius: 2px;
+    padding-right: 12px
+}
+
+.mapControls .mapControl .controlWrapper .button-icon {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.mapControls .mapControl .controlWrapper .clickable.clickableButton .button-text {
+    display: inline-block;
+    padding: 10px 6px;
+    font-weight: 400;
+    line-height: 12px
+}
+
+.mapControls .mapControl .controlWrapper .clickable.clickableButton .LayersShowLess,
+.mapControls .mapControl .controlWrapper .clickable.clickableButton .LayersShowMore {
+    margin-right: -4px;
+    height: 14px;
+    width: 14px;
+    fill: #585858
+}
+
+.mapControls .mapControl .controlWrapper .clickable.clickableButton .LayersShowMore {
+    transform: rotate(180deg);
+    padding-right: 3px
+}
+
+.mapControls .mapControl .controlWrapper .clickable.clickableButton .LayersShowLess {
+    padding-left: 3px
+}
+
+.mapControls .mapControl .controlWrapper:hover {
+    color: #e86828
+}
+
+.mapControls .mapControl .Button.tertiary-alt.v3 {
+    border-color: transparent !important;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .2) !important;
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, .2) !important;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) !important
+}
+
+.progress-bar {
+    position: absolute;
+    z-index: 300;
+    top: 20px;
+    left: 20px;
+    height: 30px;
+    width: 250px;
+    padding: 10px 15px;
+    background-color: #fff;
+    font-size: 12px;
+    color: #585858
+}
+
+.progress-bar .description>* {
+    display: inline-block
+}
+
+.progress-bar .description .percentage {
+    float: right
+}
+
+.progress-bar .bar {
+    position: relative;
+    margin-top: 9px
+}
+
+.progress-bar .bar .red-bar {
+    -webkit-transition: all .2s ease-out 0s;
+    transition: all .2s ease-out 0s;
+    position: absolute;
+    z-index: 2;
+    height: 3px;
+    width: 0;
+    background-color: #e62e2e
+}
+
+.progress-bar .bar .grey-bar {
+    position: absolute;
+    z-index: 1;
+    height: 3px;
+    width: 250px;
+    background-color: #ccc
+}
+
+.drawInstructionBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    opacity: .75;
+    z-index: 1;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    cursor: default;
+    font-size: 14px
+}
+
+.instructions {
+    float: left;
+    color: #fff;
+    position: relative;
+    left: 16px;
+    opacity: 1
+}
+
+.cancelDrawButton {
+    color: #fff;
+    position: relative;
+    margin-left: auto;
+    right: .7vw;
+    height: 40px;
+    line-height: 40px;
+    padding-left: .7vw;
+    border-left: 1px solid #b2b2b2
+}
+
+.DesktopMapSaveSearchButtonContainer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 15;
+    display: block
+}
+
+.DesktopMapSaveSearchButtonContainer.left {
+    right: auto;
+    left: 20px
+}
+
+.HomeSash {
+    display: inline-block;
+    vertical-align: text-top;
+    border-radius: 1px 1px 1px 1px;
+    padding: 3px 5px;
+    margin-right: 7px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    user-select: none;
+    line-height: 1em
+}
+
+.homeIcon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 0;
+    border-radius: 3px;
+    line-height: 16px;
+    position: relative
+}
+
+.homeIcon .SvgIcon {
+    width: 12px;
+    height: 12px;
+    top: 1px;
+    left: 2px;
+    position: relative;
+    fill: #fff
+}
+
+.homeIcon .badge.SvgIcon {
+    position: absolute;
+    top: -4px;
+    left: 11px;
+    height: 10px;
+    width: 10px;
+    z-index: 2
+}
+
+.addressDisplay span {
+    display: block
+}
+
+.addressDisplay .cityStateZip {
+    font-size: 10px;
+    padding-top: 3px
+}
+
+.HomeStats {
+    display: flex;
+    text-align: center;
+    text-transform: capitalize
+}
+
+.HomeStats>div {
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px solid hsla(0, 0%, 100%, .5)
+}
+
+.HomeStats>div:last-child {
+    border-right: none;
+    padding-right: 0
+}
+
+.HomeStats>div:first-child {
+    padding-left: 0
+}
+
+.HomeStats .value {
+    font-size: 15px;
+    height: 16px;
+    padding-bottom: .25em;
+    font-weight: 700
+}
+
+.HomeStats .SvgIcon {
+    fill: currentColor;
+    height: 1em;
+    width: 1em
+}
+
+.homecard {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.homecard,
+.homecard .link-override,
+.homecard .link-override:hover {
+    color: #fff
+}
+
+.homecard .cover-all .photoContainer {
+    background-color: #333
+}
+
+.homecard .cover-all .photoContainer .vow-card {
+    width: 100%;
+    height: 100%
+}
+
+.homecard .cover-all .photoContainer .vow-card .vow-content {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: #727272
+}
+
+.homecard .cover-all .photoContainer .vow-card .vow-content .SvgIcon {
+    height: 24px;
+    width: 24px;
+    fill: #ccc
+}
+
+.homecard .cover-all .photoContainer .vow-card .vow-content .vow-msg {
+    width: 210px;
+    margin: 0 auto;
+    font-size: 12px
+}
+
+.homecard .disclaimer {
+    padding-top: 3px;
+    font-size: 10px
+}
+
+.homecard .topleft {
+    position: absolute;
+    margin: 5px 0 5px 5px;
+    top: 0
+}
+
+.homecard .topright {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px 5px 0 0;
+    max-height: 18px
+}
+
+.homecard .bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    align-items: flex-end;
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .8));
+    padding-top: 20px
+}
+
+.homecard .bottom .left {
+    margin: 0 10px 5px;
+    text-align: left;
+    min-width: 0;
+    flex: 1 1 50%
+}
+
+.homecard .bottom .left .priceNote {
+    display: inherit
+}
+
+.homecard .bottom .left .homeIcon {
+    margin-right: 6px;
+    overflow: initial
+}
+
+.homecard .bottom .left .price-label {
+    font-size: .5em;
+    padding-left: 5px
+}
+
+.homecard .bottom .left .cityStateZip {
+    color: #ccc
+}
+
+.homecard .bottom .left div,
+.homecard .bottom .left span {
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.homecard .bottom .right {
+    margin: 0 10px 5px 0;
+    text-align: right;
+    min-width: 0;
+    flex: 1 2 50%
+}
+
+.homecard .bottom .right .HomeStats {
+    justify-content: flex-end
+}
+
+.homecard .bottom .right .HomeStats:last-child {
+    margin-bottom: 18px
+}
+
+.homecard .bottom .right .disclaimer {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ccc
+}
+
+.homecard .homeIcon.redfin {
+    background-color: #c82021
+}
+
+.homecard .homeIcon.for-sale {
+    background-color: #2e7e36
+}
+
+.homecard .homeIcon.sold {
+    background-color: #5d8acb
+}
+
+.homecard .homeIcon.fsbo {
+    background-color: #a22769
+}
+
+.homecard .homeIcon.foreclosed {
+    background-color: #4c3967
+}
+
+.homecard .homeIcon .xout-alt {
+    fill: #585858
+}
+
+.homecard .homeIcon .favorite-alt {
+    fill: #e62e2e
+}
+
+.homecard .homeIcon .rating {
+    fill: #ffb92e
+}
+
+.homecard .home-card-image-placeholder {
+    background-color: #333;
+    height: 100%
+}
+
+.homecard .home-card-image-placeholder .content {
+    width: 75%;
+    margin: 0 auto;
+    color: #999;
+    text-align: center;
+    padding-top: 58px;
+    line-height: 1.5
+}
+
+.homecard .home-card-image-placeholder .content .icon {
+    fill: #999;
+    width: 36px;
+    height: 36px;
+    margin-bottom: 10px
+}
+
+.homecard .home-card-image-placeholder .content .header {
+    font-size: 1.375rem;
+    font-weight: 400
+}
+
+@media screen and (max-width:599px) {
+    .homecard .home-card-image-placeholder .content {
+        padding-top: 30px
+    }
+}
+
+.homecard .left-nav,
+.homecard .right-nav {
+    position: absolute;
+    width: 20px;
+    top: 42%;
+    visibility: hidden
+}
+
+.homecard .left-nav.shouldShow,
+.homecard .right-nav.shouldShow {
+    visibility: inherit
+}
+
+.homecard .left-nav svg,
+.homecard .right-nav svg {
+    height: 28px;
+    width: 28px
+}
+
+.homecard .left-nav {
+    left: 14px
+}
+
+.homecard .left-nav .slide-previous-with-shadow {
+    float: right
+}
+
+.homecard .right-nav {
+    right: 14px
+}
+
+.homecard:hover .left-nav,
+.homecard:hover .right-nav {
+    visibility: inherit
+}
+
+.homecard .bottom {
+    -webkit-transition: opacity .3s linear 0s;
+    transition: opacity .3s linear 0s
+}
+
+.homecard .cover-all {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.homecard .cover-all .photoContainer {
+    height: 100%;
+    width: 100%
+}
+
+.homecard .media-index {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 3px 5px;
+    margin-bottom: 10px;
+    z-index: 1;
+    -webkit-transition: opacity .3s linear 0s;
+    transition: opacity .3s linear 0s
+}
+
+.SaveSearchPrompt {
+    text-align: center;
+    padding: 1rem 1.5rem 1.5rem
+}
+
+@media (min-width:600px) {
+    .SaveSearchPrompt {
+        width: 320px
+    }
+}
+
+.SaveSearchPrompt>* {
+    margin-bottom: 1rem
+}
+
+.SaveSearchPrompt .saveSearchCard {
+    box-shadow: 1px 1px 1px 1px #b2b2b2;
+    display: block;
+    width: 101.96078431%;
+    margin: 0 -.98039216% !important;
+    zoom: 1;
+    box-sizing: border-box;
+    margin-bottom: 1rem !important
+}
+
+.SaveSearchPrompt .saveSearchCard:after,
+.SaveSearchPrompt .saveSearchCard:before {
+    content: "";
+    display: table
+}
+
+.SaveSearchPrompt .saveSearchCard:after {
+    clear: both
+}
+
+.SaveSearchPrompt .saveSearchCard .saveSearchMapPreview {
+    display: block;
+    float: left;
+    width: 31.37254902%;
+    margin: 0 .98039216%;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+
+.SaveSearchPrompt .saveSearchCard .saveSearchMapPreview img.saveSearchMapImage {
+    vertical-align: middle;
+    width: 100%
+}
+
+.SaveSearchPrompt .saveSearchCard .saveSearchDescription {
+    display: block;
+    float: left;
+    width: 64.70588235%;
+    margin: 0 .98039216%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: .5rem
+}
+
+.SaveSearchPrompt .saveSearchCard .saveSearchDescription h3 {
+    font-weight: 400;
+    margin-bottom: .5rem
+}
+
+.SaveSearchPrompt .saveSearchCard .saveSearchDescription span.descriptionContent {
+    font-size: .875rem
+}
+
+.SaveSearchPrompt .buttonContainer {
+    margin-bottom: 0;
+    position: relative
+}
+
+.SaveSearchPrompt .buttonContainer .Button,
+.SaveSearchPromptNotice {
+    display: block;
+    width: 100%
+}
+
+.SaveSearchPromptNotice {
+    position: fixed;
+    text-align: center;
+    top: 25px;
+    z-index: 10040
+}
+
+.SaveSearchPromptNotice .Notice.confirm {
+    display: inline-block;
+    margin: auto;
+    min-width: 200px
+}
+
+.SaveSearchPromptNotice.MerchBanner .Notice.confirm {
+    min-width: 400px
+}
+
+.SaveSearchPromptNotice.MerchBanner .Notice.confirm .message {
+    margin: 0
+}
+
+.SearchPageNavBar {
+    display: flex;
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #e2e2e2
+}
+
+.SearchPageNavBar .tab {
+    width: 50%;
+    padding: 10px 0
+}
+
+.SearchPageNavBar .tab .title {
+    color: #333;
+    display: inline
+}
+
+.SearchPageNavBar .tab .NewSticker {
+    vertical-align: top;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 5px;
+    color: #fff;
+    background-color: #7ccc33;
+    font-size: 10px
+}
+
+.SearchPageNavBar .disabled {
+    color: #b2b2b2
+}
+
+.SearchPageNavBar .tab_btn .tab_btn_a {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.SearchPageNavBar .selected,
+.SearchPageNavBar .active {
+    font-weight: 600;
+    border-bottom: 2px solid #333
+}
+
+.SearchPageNavBar .Flyout {
+    margin-top: -18px
+}
+
+.SearchPageNavBar .flyout {
+    margin-top: -6px
+}
+
+.SearchPageNavBar .flyout-content {
+    width: 250px;
+    text-align: left;
+    line-height: 20px
+}
+
+body {
+    font-size: 12px;
+    overflow-x: hidden
+}
+
+body.lockScroll {
+    position: fixed;
+    overflow-y: scroll;
+    width: 100%
+}
+
+a {
+    text-decoration: none
+}
+
+#content {
+    margin: 0 !important;
+    width: inherit !important
+}
+
+.gm-style {
+    font-family: inherit !important
+}
+
+.MapHomeCardReact,
+.oms-frame {
+    color: #333;
+    background-color: #fff;
+    border-collapse: separate
+}
+
+#header.pageRestructured,
+#header.pageRestructured #header_content {
+    z-index: 16;
+    background-color: #fff;
+    min-height: 60px;
+    border-bottom: 1px solid #e2e2e2
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 25
+}
+
+#map-container {
+    position: fixed;
+    bottom: 0;
+    max-height: 2000px;
+    background: #e1dfda;
+    width: 100%
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    #map-container {
+        width: 100%
+    }
+}
+
+@media (max-width:899px) {
+    #map-container {
+        width: 100%
+    }
+}
+
+#sidepane-container {
+    position: absolute;
+    top: 60px;
+    width: 637px;
+    right: 0;
+    box-shadow: -1px, 0, 3px, rgba(0, 0, 0, .2)
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    #sidepane-container {
+        width: 457px
+    }
+}
+
+@media (max-width:899px) {
+    #sidepane-container {
+        width: 375px
+    }
+}
+
+#sidepane-container .WideSidepaneHeader.Photo {
+    box-shadow: 1px 0 4px 0 rgba(0, 0, 0, .2)
+}
+
+#sidepane-container .TableView .ReactDataTable .tableTitle {
+    box-shadow: 1px 0 2px 0 rgba(0, 0, 0, .4)
+}
+
+.mapSidepaneLeft #map-container {
+    right: 0
+}
+
+.mapSidepaneLeft #sidepane-container {
+    right: auto;
+    box-shadow: 1px, 0, 3px, rgba(0, 0, 0, .2)
+}
+
+.mapSidepaneLeft #sidepane-container .WideSidepaneHeader.Photo {
+    box-shadow: -1px 0 4px 0 rgba(0, 0, 0, .2)
+}
+
+.mapSidepaneLeft #sidepane-container .TableView .ReactDataTable .tableTitle {
+    box-shadow: -1px 0 2px 0 rgba(0, 0, 0, .4)
+}
+
+@media (min-width:1200px) {
+    .mapSidepaneLeft .AdminTab.react {
+        left: 642px
+    }
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    .mapSidepaneLeft .AdminTab.react {
+        left: 462px
+    }
+}
+
+@media (max-width:899px) {
+    .mapSidepaneLeft .AdminTab.react {
+        left: 380px
+    }
+}
+
+.TableViewPlaceholder {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.shortStickyBanner #left-container,
+.shortStickyBanner #right-container {
+    top: 108px
+}
+
+#search-footer .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+#search-footer .footer div {
+    padding: 20px
+}
+
+#search-footer .footer .links {
+    min-width: 210px;
+    flex-grow: 1
+}
+
+#search-footer .footer .social {
+    min-width: 170px;
+    flex-grow: 1
+}
+
+#search-footer .footer .legal {
+    min-width: 200px;
+    flex-grow: 2
+}
+
+.footer.main-content {
+    display: none
+}
+
+#search-map-wrapper {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+#search-map-wrapper .GoogleMapView {
+    height: 100% !important;
+    width: 100% !important
+}
+
+.sortFlyout .sortDropDown {
+    width: 20px;
+    height: 20px;
+    margin-top: -1px;
+    margin-left: -2px;
+    vertical-align: middle;
+    fill: #0c82a5
+}
+
+.sortFlyout .sortDropDown.rotate {
+    transform: rotate(180deg)
+}
+
+.sortFlyout .sortDropDown.mobile {
+    width: 12px;
+    height: 12px;
+    margin: 0
+}
+
+.sortFlyout .sortDropDown.sort-down,
+.sortFlyout .sortDropDown.sort-up {
+    fill: #585858;
+    margin-right: -1px;
+    margin-left: -4px
+}
+
+.sortFlyout .flyoutText {
+    padding-left: 3px;
+    color: #0c82a5
+}
+
+.sortFlyout .flyoutText .exposedFiltersSortText {
+    color: #585858
+}
+
+.sortFlyout .flyoutWrapper .flyout {
+    cursor: pointer;
+    width: 177px;
+    color: #585858;
+    font-size: 14px
+}
+
+.sortFlyout .flyoutWrapper .flyout .sortOrderContainer {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f5
+}
+
+.sortFlyout .flyoutWrapper .flyout .sortOrderContainer .sortOrder {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    color: #585858
+}
+
+.sortFlyout .flyoutWrapper .flyout .sortOrderContainer .sortOrder:not(.selected):hover {
+    color: #333
+}
+
+.sortFlyout .flyoutWrapper .flyout .sortOrderContainer .sortOrder.selected {
+    color: #333;
+    font-weight: 600;
+    border-bottom: 2px solid #333
+}
+
+.sortFlyout .flyoutWrapper .flyout .sortOptions .sortOption {
+    height: 40px;
+    padding: 0 20px;
+    width: 100%;
+    text-align: left;
+    color: #585858
+}
+
+.sortFlyout .flyoutWrapper .flyout .sortOptions .sortOption>* {
+    display: inline-block
+}
+
+.sortFlyout .flyoutWrapper .flyout .sortOptions .sortOption:hover:not(.disabled) {
+    background-color: #f5f5f5
+}
+
+.sortFlyout .flyoutWrapper .flyout .sortOptions .sortOption.disabled {
+    color: #ccc;
+    cursor: default
+}
+
+.sortFlyout .flyoutWrapper .flyout .sortOptions .sortOption .label {
+    line-height: 40px
+}
+
+.sortFlyout .flyoutWrapper .flyout .sortOptions .sortOption .checkmark {
+    height: 16px;
+    width: 16px;
+    fill: #65c0cf;
+    float: right;
+    padding: 12px 3px 0 0;
+    box-sizing: initial !important;
+}
+
+.WideSidepaneHeader {
+    z-index: 15;
+    position: fixed;
+    min-width: 637px;
+    background-color: #fff
+}
+
+@media (min-width:1200px) {
+    .WideSidepaneHeader {
+        min-width: 637px
+    }
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    .WideSidepaneHeader {
+        min-width: 457px
+    }
+}
+
+@media (max-width:899px) {
+    .WideSidepaneHeader {
+        min-width: 375px
+    }
+}
+
+#searchForm.desktop .sidepaneHeader,
+.WideSidepaneHeader .sidepaneHeader {
+    padding: 0 16px;
+    height: 44px;
+    display: table;
+    border: none;
+    vertical-align: middle
+}
+
+#searchForm.desktop .sidepaneHeader h1,
+.WideSidepaneHeader .sidepaneHeader h1 {
+    font-size: 24px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 26px;
+    width: 605px;
+    padding: 16px 0
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    #searchForm.desktop .sidepaneHeader h1,
+    .WideSidepaneHeader .sidepaneHeader h1 {
+        width: 420px
+    }
+}
+
+@media (max-width:899px) {
+    #searchForm.desktop .sidepaneHeader h1,
+    .WideSidepaneHeader .sidepaneHeader h1 {
+        width: 338px
+    }
+}
+
+.WideSidepaneHeader.Table {
+    border-bottom: 1px solid #f5f5f5
+}
+
+.WideSidepaneHeader.Photo {
+    box-shadow: 1px 0 4px 0 rgba(0, 0, 0, .2)
+}
+
+#searchForm.desktop .exposedFilterForm,
+.WideSidepaneHeader .exposedFilterForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 16px;
+    background-color: #f5f5f5
+}
+
+#searchForm.desktop .exposedFilterForm .form,
+.WideSidepaneHeader .exposedFilterForm .form {
+    display: inline-block
+}
+
+#searchForm.desktop .exposedFilterForm .form .filterSection,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection {
+    width: 233px;
+    display: inline-block
+}
+
+#searchForm.desktop .exposedFilterForm .form .filterSection.priceFilter,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection.priceFilter {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: auto
+}
+
+@media (min-width:1200px) {
+    #searchForm.desktop .exposedFilterForm .form .filterSection.priceFilter .RangeSelect,
+    .WideSidepaneHeader .exposedFilterForm .form .filterSection.priceFilter .RangeSelect {
+        width: 285px
+    }
+    #searchForm.desktop .exposedFilterForm .form .filterSection.priceFilter .select,
+    .WideSidepaneHeader .exposedFilterForm .form .filterSection.priceFilter .select {
+        min-width: 120px
+    }
+    #searchForm.desktop .exposedFilterForm .form .filterSection.priceFilter .filterTitle,
+    .WideSidepaneHeader .exposedFilterForm .form .filterSection.priceFilter .filterTitle {
+        padding-right: 16px
+    }
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    #searchForm.desktop .exposedFilterForm .form .filterSection.priceFilter,
+    .WideSidepaneHeader .exposedFilterForm .form .filterSection.priceFilter {
+        min-width: 300px;
+        padding-right: 0
+    }
+}
+
+@media (max-width:899px) {
+    #searchForm.desktop .exposedFilterForm .form .filterSection.priceFilter,
+    .WideSidepaneHeader .exposedFilterForm .form .filterSection.priceFilter {
+        min-width: 260px;
+        padding-right: 0;
+        display: inline-block
+    }
+}
+
+#searchForm.desktop .exposedFilterForm .form .filterSection .filterTitle,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection .filterTitle {
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 0;
+    padding-right: 12px
+}
+
+#searchForm.desktop .exposedFilterForm .form .filterSection .RangeSelect,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection .RangeSelect {
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+#searchForm.desktop .exposedFilterForm .form .filterSection .RangeSelect .select,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection .RangeSelect .select {
+    vertical-align: bottom;
+    border: 1px solid #e2e2e2
+}
+
+#searchForm.desktop .exposedFilterForm .form .filterSection .RangeSelect .input,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection .RangeSelect .input {
+    border-color: #fff
+}
+
+#searchForm.desktop .exposedFilterForm .form .filterSection .RangeSelect .input .container .value,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection .RangeSelect .input .container .value {
+    margin-right: 16px
+}
+
+#searchForm.desktop .exposedFilterForm .form .filterSection .RangeSelect .input .maxBeds,
+#searchForm.desktop .exposedFilterForm .form .filterSection .RangeSelect .input .maxPrice,
+#searchForm.desktop .exposedFilterForm .form .filterSection .RangeSelect .input .minBeds,
+#searchForm.desktop .exposedFilterForm .form .filterSection .RangeSelect .input .minPrice,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection .RangeSelect .input .maxBeds,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection .RangeSelect .input .maxPrice,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection .RangeSelect .input .minBeds,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection .RangeSelect .input .minPrice {
+    height: 40px;
+    margin-top: -10px
+}
+
+#searchForm.desktop .exposedFilterForm .form .filterSection .separator,
+.WideSidepaneHeader .exposedFilterForm .form .filterSection .separator {
+    line-height: 32px;
+    color: #999;
+    padding: 0;
+    font-size: 14px
+}
+
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer {
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom
+}
+
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton {
+    border: none;
+    padding: 0
+}
+
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton>span,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton>span {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneMoreText,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneMoreText {
+    padding-right: 4px
+}
+
+@media (max-width:1199px) {
+    #searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneMoreText,
+    .WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneMoreText {
+        display: none
+    }
+}
+
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneFilterCountText,
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneFiltersText,
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneMoreText,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneFilterCountText,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneFiltersText,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneMoreText {
+    font-size: inherit;
+    font-weight: 400
+}
+
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneFilterCount,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .wideSidepaneFilterCount {
+    display: inline-flex;
+    margin-left: 5px;
+    height: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    padding: 0 5px;
+    border-radius: 35px;
+    font-size: .75rem;
+    color: #0c82a5;
+    border: 1px solid #0c82a5
+}
+
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .showMoreIcon,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .showMoreIcon {
+    width: 20px;
+    height: 20px;
+    fill: #0c82a5;
+    position: relative;
+    top: 2px
+}
+
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .showMoreIcon.rotate,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton .showMoreIcon.rotate {
+    transform: rotate(180deg);
+    top: 0
+}
+
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton:hover .showMoreIcon,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton:hover .showMoreIcon {
+    fill: #65c0cf
+}
+
+#searchForm.desktop .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton:hover .wideSidepaneFilterCount,
+.WideSidepaneHeader .exposedFilterForm .wideSidepaneFilterButtonContainer .Button.v3.compact.text.wideSidepaneFilterButton:hover .wideSidepaneFilterCount {
+    color: #65c0cf;
+    border: 1px solid #65c0cf
+}
+
+#searchForm.desktop .description,
+.WideSidepaneHeader .description {
+    padding: 2px 16px 0;
+    font-size: 12px;
+    color: #585858;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 463px
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    #searchForm.desktop .description,
+    .WideSidepaneHeader .description {
+        width: 280px
+    }
+}
+
+@media (max-width:899px) {
+    #searchForm.desktop .description,
+    .WideSidepaneHeader .description {
+        width: 199px
+    }
+}
+
+#searchForm.desktop .description>*,
+.WideSidepaneHeader .description>* {
+    display: inline-block
+}
+
+@media (max-width:1199px) {
+    #searchForm.desktop .description .descriptionSummary .filterContainer,
+    .WideSidepaneHeader .description .descriptionSummary .filterContainer {
+        display: none
+    }
+}
+
+#searchForm.desktop .description .descriptionSummary .sortFlyout,
+#searchForm.desktop .description .descriptionSummary>*,
+.WideSidepaneHeader .description .descriptionSummary .sortFlyout,
+.WideSidepaneHeader .description .descriptionSummary>* {
+    display: inline-block
+}
+
+#searchForm.desktop .description .descriptionSummary .sortFlyout .flyoutText .sortingByText,
+.WideSidepaneHeader .description .descriptionSummary .sortFlyout .flyoutText .sortingByText {
+    display: none
+}
+
+#searchForm.desktop .description .descriptionSummary .filterContainer,
+.WideSidepaneHeader .description .descriptionSummary .filterContainer {
+    max-width: 285px;
+    white-space: nowrap;
+    line-height: 13px
+}
+
+#searchForm.desktop .description .descriptionSummary .filterContainer .filter,
+.WideSidepaneHeader .description .descriptionSummary .filterContainer .filter {
+    max-width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left
+}
+
+#searchForm.desktop .description .descriptionSummary .homes,
+.WideSidepaneHeader .description .descriptionSummary .homes {
+    font-weight: 600;
+    color: #333
+}
+
+@media (max-width:899px) {
+    #searchForm.desktop .description .descriptionSummary .homes .showingText,
+    .WideSidepaneHeader .description .descriptionSummary .homes .showingText {
+        display: none
+    }
+}
+
+#searchForm.desktop .description .descriptionSummary .summarySeparator,
+.WideSidepaneHeader .description .descriptionSummary .summarySeparator {
+    padding: 0 7px;
+    font-size: 6px;
+    vertical-align: middle
+}
+
+#searchForm.desktop .displayModeToggler,
+.WideSidepaneHeader .displayModeToggler {
+    display: table-cell;
+    vertical-align: bottom
+}
+
+#searchForm.desktop .displayModeToggler .ModeOption,
+.WideSidepaneHeader .displayModeToggler .ModeOption {
+    color: #585858;
+    font-size: 16px;
+    cursor: pointer
+}
+
+#searchForm.desktop .displayModeToggler .ModeOption .photo,
+.WideSidepaneHeader .displayModeToggler .ModeOption .photo {
+    margin-right: 19px
+}
+
+#searchForm.desktop .displayModeToggler .ModeOption .modeOptionInnard,
+.WideSidepaneHeader .displayModeToggler .ModeOption .modeOptionInnard {
+    padding: 0 4px;
+    display: inline-block;
+    height: 29px
+}
+
+@media (max-width:1199px) {
+    #searchForm.desktop .displayModeToggler .ModeOption .modeOptionInnard,
+    .WideSidepaneHeader .displayModeToggler .ModeOption .modeOptionInnard {
+        height: 27px
+    }
+}
+
+#searchForm.desktop .displayModeToggler .ModeOption:not(.selected),
+.WideSidepaneHeader .displayModeToggler .ModeOption:not(.selected) {
+    font-weight: 400
+}
+
+#searchForm.desktop .displayModeToggler .ModeOption:not(.selected):hover,
+.WideSidepaneHeader .displayModeToggler .ModeOption:not(.selected):hover {
+    color: #333
+}
+
+#searchForm.desktop .displayModeToggler .ModeOption.selected,
+.WideSidepaneHeader .displayModeToggler .ModeOption.selected {
+    font-weight: 600;
+    color: #333
+}
+
+#searchForm.desktop .displayModeToggler .ModeOption.selected .modeOptionInnard,
+.WideSidepaneHeader .displayModeToggler .ModeOption.selected .modeOptionInnard {
+    border-bottom: 2px solid #333
+}
+
+body.shortStickyBanner .WideSidepaneHeader {
+    top: 108px
+}
+
+@media (min-width:1200px) {
+    .PhotosView .topright {
+        margin: 4px 8px 0 0
+    }
+    .PhotosView .favorite-icon {
+        height: 28px !important;
+        width: 28px !important
+    }
+}
+
+.MerchStrategySessionWidget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+    padding: 2rem 0;
+    background-color: #fff;
+    margin: 0 auto
+}
+
+.MerchStrategySessionWidget img {
+    display: block;
+    margin: 0 auto 1rem;
+    height: 70px
+}
+
+.MerchStrategySessionWidget a {
+    display: block
+}
+
+.DynamicMerchWidget img {
+    width: 181px
+}
+
+.StaticMerchWidget img {
+    width: 70px
+}
+
+.PhotosView.above-the-fold {
+    padding: 10px 8px 0
+}
+
+.PhotosView {
+    padding: 0 8px 10px;
+    background-color: #fff
+}
+
+.PhotosView .homecards {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.PhotosView .avm-homecard-container,
+.PhotosView .HomeCardContainer {
+    width: 100%
+}
+
+.PhotosView .selectedHomeCard .MapHomeCardReact {
+    background-color: #fff;
+    padding: 4px;
+    border: 3px solid #727272;
+    margin: 1px
+}
+
+.PhotosView .MapHomeCardReact {
+    padding: 8px;
+    border: 0;
+    margin: 0;
+    height: 220px
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    .PhotosView .MapHomeCardReact {
+        height: 280px
+    }
+}
+
+.PhotosView .MapHomeCardReact .homecard {
+    width: 100%;
+    height: 100%
+}
+
+.PhotosView .MapHomeCardReact .FavoriteExtension {
+    display: inline-block
+}
+
+@media (min-width:1200px) {
+    .PhotosView .avm-homecard-container,
+    .PhotosView .HomeCardContainer {
+        width: 50%
+    }
+}
+
+.PagingControls {
+    -webkit-user-select: none;
+    padding-bottom: 30px;
+    text-align: center
+}
+
+.PagingControls * {
+    padding: 5px;
+    display: inline-block
+}
+
+.PagingControls .goToPage {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 2px solid #0c82a5;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+@media (min-width:1200px) {
+    .PagingControls .goToPage {
+        width: 20px;
+        height: 20px;
+        line-height: 20px
+    }
+}
+
+@media (max-width:1199px) {
+    .PagingControls .goToPage {
+        width: 13px;
+        height: 13px;
+        line-height: 13px
+    }
+}
+
+.PagingControls .goToPage.selected {
+    border: 2px solid #999;
+    cursor: default;
+    pointer-events: none;
+    color: #999
+}
+
+.PagingControls .buttonControl {
+    vertical-align: middle
+}
+
+.PagingControls .buttonControl.disabled {
+    visibility: hidden
+}
+
+.PagingControls .buttonControl .SvgIcon {
+    fill: #0c82a5;
+    width: 20px;
+    height: 20px
+}
+
+@media (max-width:1199px) {
+    .PagingControls .buttonControl .SvgIcon {
+        width: 18px;
+        height: 18px
+    }
+}
+
+.EditSavedSearchForm {
+    .Button,
+    .field.Text {
+        width: 100%
+    }
+    .field.Select.frequency {
+        margin-top: 18px;
+        min-width: 8rem
+    }
+    .submitButtonWrapper {
+        margin-top: 1.5rem
+    }
+    .filter-text {
+        color: @redfin-gray-medium;
+        margin-top: .5rem
+    }
+}
+
+body.shortStickyBanner .wideSidepane {
+    top: 48px
+}
+
+.HomeViews {
+    background-color: #fff
+}
+
+.PhotosView.above-the-fold {
+    margin-top: 214px
+}
+
+@media (max-width:899px) {
+    .PhotosView.above-the-fold {
+        margin-top: 237px
+    }
+}
+
+.PhotosView .mls_disclaimer {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.DownloadAndSave {
+    text-align: center;
+    font-size: 14px;
+    padding: 32px 0 15px
+}
+
+.DownloadAndSave a {
+    text-decoration: none
+}
+
+.DownloadAndSave .viewingPage {
+    margin-top: 5px
+}
+
+.DownloadAndSave .viewingPage .pageText {
+    margin-right: 3px
+}
+
+.avmInNoResuls {
+    margin-top: 154px;
+    padding-bottom: 60px
+}
+
+.NoResults {
+    margin: 241px 15px 140px;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    font-size: 13px
+}
+
+.NoResults .header {
+    border-bottom: 1px solid #f64e1d;
+    padding: 10px;
+    margin: 0;
+    background-color: #ffebe3;
+    color: #f64e1d;
+    position: relative
+}
+
+.NoResults .header div {
+    margin: 0
+}
+
+.NoResults .header .float-left {
+    margin-top: 6px;
+    padding-right: 10px
+}
+
+.NoResults .header .title {
+    font-size: 14px;
+    line-height: 20px
+}
+
+.NoResults .header .arrow {
+    position: absolute;
+    top: 56px;
+    left: 13px
+}
+
+.NoResults .options {
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 13px
+}
+
+.NoResults .options li {
+    margin-top: 10px;
+    padding: 0 10px 10px 20px;
+    background: url(37ef28bdaeacc0d5abafa7446898dbd0.png) no-repeat;
+    border-bottom: 1px dotted #e2e2e2;
+    list-style-type: none
+}
+
+.NoResults .options li .button-text {
+    color: #0c82a5
+}
+
+.NoResults .options li a {
+    text-decoration: none
+}
+
+.NoResults .options li:last-child {
+    border-bottom: none
+}
+
+.RegionSummaryCard {
+    padding: 15px 10px 10px;
+    height: 150px;
+    background: #fff;
+    margin: 93px 15px 15px;
+    position: relative
+}
+
+.RegionSummaryCard .results-title,
+.RegionSummaryCard .sub-title {
+    color: #585858;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 5px
+}
+
+.RegionSummaryCard .icon {
+    position: absolute;
+    right: 25px;
+    top: 25px
+}
+
+.RegionSummaryCard ul {
+    min-height: 57px;
+    color: #0c82a5;
+    margin-top: 5px;
+    padding: 12px 35px;
+    font-size: 17px
+}
+
+.RegionSummaryCard ul li {
+    margin: 2px 0
+}
+
+.mls_disclaimer {
+    margin: 10px 0;
+    width: 618px;
+    line-height: 12px;
+    text-align: left
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    .mls_disclaimer {
+        width: 438px
+    }
+}
+
+@media (max-width:899px) {
+    .mls_disclaimer {
+        width: 356px
+    }
+}
+
+.secure-info-lock {
+    display: inline-block
+}
+
+.secure-info-lock .secure {
+    fill: #585858;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle
+}
+
+.secure-info-lock .flyout {
+    margin-top: -12px;
+    margin-right: -5px
+}
+
+.secure-info-lock .flyout-content {
+    white-space: nowrap
+}
+
+body.stickyBanner .WideSidepaneHeader {
+    top: 147px
+}
+
+.ReactDataTable {
+    -webkit-user-select: none
+}
+
+.ReactDataTable .tableTitle {
+    display: table;
+    z-index: 3;
+    font-size: 13px;
+    background-color: #f5f5f5
+}
+
+.ReactDataTable .tableTitle th.disabled span {
+    color: #727272
+}
+
+.ReactDataTable .tableTitle .column_1 .itemWrapper,
+.ReactDataTable .tableTitle .column_2 .itemWrapper {
+    margin-left: -10px
+}
+
+.ReactDataTable .tableTitle .column_3,
+.ReactDataTable .tableTitle .column_4,
+.ReactDataTable .tableTitle .column_5,
+.ReactDataTable .tableTitle .column_6,
+.ReactDataTable .tableTitle .column_7,
+.ReactDataTable .tableTitle .column_8 {
+    text-align: right
+}
+
+.ReactDataTable .tableList {
+    display: block;
+    background-color: #fff;
+    font-size: 12px
+}
+
+.ReactDataTable .tableList .tableRow {
+    display: table;
+    border-bottom: 2px solid #e2e2e2
+}
+
+.ReactDataTable .tableList .tableRow.selected {
+    background-color: #f9fcc8
+}
+
+.ReactDataTable .tableList .tableRow td {
+    vertical-align: middle;
+    text-overflow: ellipsis
+}
+
+.ReactDataTable .tableList .tableRow .location {
+    width: 70px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block
+}
+
+.ReactDataTable .tableList .tableRow .hot_home_badge {
+    background-image: url(8d649a88e811651bba7497f7a25f6d1c.png);
+    height: 7px;
+    width: 16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -1px;
+    top: -3px
+}
+
+.ReactDataTable .tableList .tableRow .open_house_badge {
+    background-image: url(cd2f62021ebd3930461f216239afae51.png);
+    height: 7px;
+    width: 16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -1px;
+    top: -3px
+}
+
+.ReactDataTable .tableList .tableRow .column_3,
+.ReactDataTable .tableList .tableRow .column_4,
+.ReactDataTable .tableList .tableRow .column_5,
+.ReactDataTable .tableList .tableRow .column_6,
+.ReactDataTable .tableList .tableRow .column_7,
+.ReactDataTable .tableList .tableRow .column_8 {
+    text-align: right
+}
+
+.ReactDataTable .tableList .tableRow .column_8 span {
+    float: right
+}
+
+.ReactDataTable .tableFooter {
+    display: table;
+    font-size: 12px
+}
+
+.ReactDataTable .tableFooter td {
+    vertical-align: middle
+}
+
+.ReactDataTable .tableFooter .column_1 {
+    position: relative
+}
+
+.ReactDataTable .tableFooter .column_1 .medianLabel {
+    position: absolute;
+    line-height: 30px;
+    top: 0;
+    white-space: nowrap;
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.ReactDataTable .tableFooter .column_3,
+.ReactDataTable .tableFooter .column_4,
+.ReactDataTable .tableFooter .column_5,
+.ReactDataTable .tableFooter .column_6,
+.ReactDataTable .tableFooter .column_7,
+.ReactDataTable .tableFooter .column_8 {
+    text-align: right
+}
+
+.time-on-redfin .ReactDataTable .tableList .tableRow .address {
+    width: 120px
+}
+
+.time-on-redfin .ReactDataTable .tableList .tableRow .location {
+    width: 50px
+}
+
+.time-on-redfin .ReactDataTable .tableList .tableRow .column_8 .new {
+    color: #2e7e36;
+    font-weight: 700
+}
+
+.HomeIconBlock {
+    line-height: 0
+}
+
+.HomeIconBlock .top {
+    text-align: center
+}
+
+.HomeIconBlock .top svg {
+    background-color: #fff;
+    z-index: 1
+}
+
+.HomeIconBlock .top .Open svg {
+    height: 15px;
+    width: 30px
+}
+
+.HomeIconBlock .top .Hot svg {
+    height: 15px;
+    width: 29px
+}
+
+.HomeIconBlock .bottom .property {
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
+    width: 32px;
+    height: 32px
+}
+
+.HomeIconBlock .bottom .property .badge.SvgIcon {
+    position: absolute;
+    top: -5px;
+    left: 28px;
+    height: 12px;
+    width: 12px;
+    stroke: #fff;
+    stroke-width: 3px;
+    z-index: 2
+}
+
+.HomeIconBlock .bottom .property .SvgIcon.property-icon {
+    position: relative;
+    top: 6px;
+    left: 6px;
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    z-index: 0
+}
+
+.HomeIconBlock .redfin {
+    background-color: #c82021
+}
+
+.HomeIconBlock .for-sale {
+    background-color: #2e7e36
+}
+
+.HomeIconBlock .sold {
+    background-color: #5d8acb
+}
+
+.HomeIconBlock .owner {
+    background-color: #a22769
+}
+
+.HomeIconBlock .foreclosed {
+    background-color: #4c3967
+}
+
+.HomeIconBlock .Hot {
+    fill: #fa7b20
+}
+
+.HomeIconBlock .xout-alt {
+    fill: #585858
+}
+
+.HomeIconBlock .favorite-alt {
+    fill: #e62e2e
+}
+
+.HomeIconBlock .rating {
+    fill: #ffb92e
+}
+
+.HomeIconBlock.small .top svg {
+    position: relative;
+    top: 2px;
+    margin-top: -3px
+}
+
+.HomeIconBlock.small .top .Hot svg {
+    width: 15px;
+    height: 7px;
+    left: -1px
+}
+
+.HomeIconBlock.small .top .Open svg {
+    width: 16px;
+    height: 7px
+}
+
+.HomeIconBlock.small .bottom {
+    text-align: center
+}
+
+.HomeIconBlock.small .bottom .property {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    box-shadow: none;
+    border: 0;
+    border-radius: 3px
+}
+
+.HomeIconBlock.small .bottom .property .badge.SvgIcon {
+    left: 11px;
+    height: 10px;
+    width: 10px;
+    stroke: none
+}
+
+.HomeIconBlock.small .bottom .property .SvgIcon.property-icon {
+    width: 12px;
+    height: 12px;
+    top: 2px;
+    left: 0;
+    margin: 0
+}
+
+.HomeIconBlock.small .bottom .property .SvgIcon.property-icon.logo-R {
+    width: 10px;
+    height: 10px;
+    top: 3px
+}
+
+.HomeIconBlock.small.hasBanner .bottom .property .badge.SvgIcon {
+    top: -2px
+}
+
+.HomeIconBlock.small.hasBanner .bottom .property .badge.SvgIcon.rating {
+    top: -3px
+}
+
+.MapHomeCardReact {
+    height: 256px
+}
+
+@media (min-width:1200px) {
+    .MapHomeCardReact {
+        height: 256px
+    }
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    .MapHomeCardReact {
+        height: 260px
+    }
+}
+
+@media (max-width:899px) {
+    .MapHomeCardReact {
+        height: 220px
+    }
+}
+
+.MapHomeCardReact .homecard {
+    overflow: visible;
+    display: table-cell;
+    vertical-align: top;
+    width: 318.5px;
+    height: 256px;
+    display: inline-block;
+    background-color: #000
+}
+
+.MapHomeCardReact .homecard .homecardPrice {
+    font-size: 15px
+}
+
+@media (min-width:1200px) {
+    .MapHomeCardReact .homecard {
+        width: 318.5px;
+        height: 256px
+    }
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+    .MapHomeCardReact .homecard {
+        width: 457px;
+        height: 260px
+    }
+}
+
+@media (max-width:899px) {
+    .MapHomeCardReact .homecard {
+        width: 375px;
+        height: 220px
+    }
+}
+
+.MapHomeCardReact .ext {
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    width: 318.5px;
+    height: 240px;
+    border-top: 1px solid #f5f5f5;
+    padding-top: 16px
+}
+
+@media (max-width:1199px) {
+    .MapHomeCardReact .ext {
+        display: none
+    }
+}
+
+.MapHomeCardReact .ext .agent-extension-container {
+    line-height: 14px;
+    padding-bottom: 16px;
+    margin: 0 16px;
+    border-bottom: 1px solid #f5f5f5
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-extension {
+    max-height: 55px
+}
+
+.MapHomeCardReact .ext .agent-extension-container .SharedFavoriteStatusbar {
+    margin: 0;
+    padding: 0
+}
+
+.MapHomeCardReact .ext .agent-extension-container .TourInsight {
+    font-size: 12px;
+    padding-top: 2px;
+    line-height: 16px
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content {
+    border: 0;
+    height: auto
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-info {
+    margin-top: 0
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-info .single-line-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-info .listed {
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-info .agent-badge-title {
+    color: #c82021;
+    text-transform: uppercase
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-info .agent-name {
+    font-size: 14px;
+    line-height: 20px
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-info .sawHome {
+    font-size: 10px;
+    color: #727272
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-photo {
+    margin: 0 10px 0 0
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-photo .agent-tag {
+    top: 0;
+    right: inherit;
+    display: none
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-photo .user-alt {
+    width: 100%;
+    height: 100%;
+    fill: #727272
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-photo.sidepane {
+    border: none
+}
+
+.MapHomeCardReact .ext .agent-extension-container .agent-content .agent-photo.sidepane .photo-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%
+}
+
+.MapHomeCardReact .ext .agent-extension-container .ListingRemark {
+    max-height: 42px;
+    line-height: 16px;
+    color: #727272
+}
+
+.MapHomeCardReact .ext .recommendation-reason {
+    padding-bottom: 16px;
+    margin: 12px 16px;
+    border-bottom: none;
+    max-height: 42px;
+    line-height: 16px;
+    color: #999
+}
+
+.MapHomeCardReact .ext .recommendation-reason .recommended-bold {
+    color: #333
+}
+
+.MapHomeCardReact .ext .openHouseContainer {
+    padding: 16px;
+    position: absolute;
+    bottom: 47px
+}
+
+.MapHomeCardReact .ext .openHouseContainer .openHouseText {
+    display: inline-block;
+    padding-right: 6px
+}
+
+.MapHomeCardReact .ext .openHouseContainer .openHouseText .title {
+    font-weight: 400
+}
+
+.MapHomeCardReact .ext .openHouseContainer .openHouseText .value {
+    font-weight: 600;
+    padding-left: 3px
+}
+
+.MapHomeCardReact .ext .openHouseContainer .alreadySavedMsg,
+.MapHomeCardReact .ext .openHouseContainer .oh_list_save_msg {
+    display: inline-block
+}
+
+.MapHomeCardReact .ext .openHouseContainer .alreadySavedMsg .checkmark {
+    fill: #7ccc33;
+    padding-right: 2px
+}
+
+.MapHomeCardReact .ext .openHouseContainer .alreadySavedMsg span {
+    font-weight: 400;
+    color: #727272;
+    padding-right: 2px
+}
+
+.MapHomeCardReact .ext .openHouseContainer .alreadySavedMsg .link {
+    padding-left: 2px
+}
+
+.MapHomeCardReact .ext .TourInsight .link {
+    margin-left: 3px;
+    display: inline-block
+}
+
+.MapHomeCardReact .ext .TourInsight .link .Flyout {
+    position: relative;
+    left: 50%;
+    top: 0
+}
+
+.MapHomeCardReact .ext .action-bar {
+    position: absolute;
+    bottom: 0;
+    height: 38px;
+    padding: 3px 14px;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    width: 290px
+}
+
+.MapHomeCardReact .ext .action-bar .SvgIcon {
+    fill: #585858
+}
+
+.MapHomeCardReact .ext .action-bar .SvgIcon.favoriteButton,
+.MapHomeCardReact .ext .action-bar .SvgIcon.xoutButton {
+    height: 24px;
+    width: 24px
+}
+
+.MapHomeCardReact .ext .action-bar .SvgIcon.favoriteButton.selected {
+    fill: #e62e2e
+}
+
+.MapHomeCardReact .ext .action-bar .FavoriteButtonWrapper,
+.MapHomeCardReact .ext .action-bar .TourButtonWrapper,
+.MapHomeCardReact .ext .action-bar .ViewDetailsButtonWrapper,
+.MapHomeCardReact .ext .action-bar .XoutButtonWrapper {
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 36px
+}
+
+.MapHomeCardReact .ext .action-bar .FavoriteButtonWrapper *,
+.MapHomeCardReact .ext .action-bar .TourButtonWrapper *,
+.MapHomeCardReact .ext .action-bar .ViewDetailsButtonWrapper *,
+.MapHomeCardReact .ext .action-bar .XoutButtonWrapper * {
+    vertical-align: middle
+}
+
+.MapHomeCardReact .ext .action-bar .ViewDetailsButtonWrapper span {
+    vertical-align: initial
+}
+
+.MapHomeCardReact .ext .action-bar .FavoriteButtonWrapper {
+    padding-right: 16px
+}
+
+.MapHomeCardReact .ext .action-bar .FavoriteButtonWrapper:hover .SvgIcon {
+    fill: #000
+}
+
+.MapHomeCardReact .ext .action-bar .XoutButtonWrapper {
+    padding-right: 20px
+}
+
+.MapHomeCardReact .ext .action-bar .XoutButtonWrapper:hover .SvgIcon {
+    fill: #000
+}
+
+.MapHomeCardReact .ext .action-bar .TourButtonWrapper {
+    float: right;
+    padding-left: 6px
+}
+
+.MapHomeCardReact .ext .action-bar .TourButtonWrapper .TourButton {
+    width: 100px;
+    font-weight: 400;
+    line-height: 13px
+}
+
+.MapHomeCardReact .ext .action-bar .TourButtonWrapper .TourButton span {
+    display: table-cell !important;
+    width: 90px
+}
+
+.MapHomeCardReact .ext .action-bar .ViewDetailsButtonWrapper {
+    font-size: 14px;
+    float: right
+}
+
+.MapHomeCardReact .ext .action-bar .ViewDetailsButtonWrapper .ViewDetailsButton.Button.v3.compact {
+    width: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 400;
+    line-height: 13px
+}
+
+.MapHomeCardReact .ext .openhouse-save {
+    width: 100%
+}
+
+.MapHomeCardReact .ext .openhouse-save td {
+    vertical-align: initial
+}
+
+.MapHomeCardReact .ext .openhouse-save .alreadySavedMsg,
+.MapHomeCardReact .ext .openhouse-save .oh_list_save_msg {
+    display: block
+}
+
+.MapHomeCardReact .ext .ico_list_oh {
+    display: inline-block;
+    left: 5px;
+    top: 2px;
+    position: relative
+}
+
+.MapHomeCardReact .ext .hotness-banner-container {
+    margin: 0;
+    line-height: 18px;
+    color: #727272
+}
+
+.MapHomeCardReact .ext .hotness-banner-container .hotness-help-link {
+    color: #fa7b20
+}
+
+.MapHomeCardReact .ext .hotness-banner-container .hotness-help-link .DefinitionFlyoutLink {
+    font-weight: 700
+}
+
+.MapHomeCardReact .open_house_time_container {
+    display: table-cell;
+    display: inline-table;
+    display: inline-block;
+    vertical-align: top
+}
+
+.MapHomeCardReact .oh_list_row {
+    height: 24px;
+    position: relative
+}
+
+.MapHomeCardReact .oh_list_row .oh_list_action {
+    text-align: center
+}
+
+.MapHomeCardReact .oh_list_row .oh_list_action .ohFlyoutContent {
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 400
+}
+
+.MapHomeCardReact .oh_list_save_msg {
+    font-weight: 400
+}
+
+.MapHomeCardReact .oh_list_save_icon {
+    background-image: url(536394fe91d6a94aef37d7c8066fafb6.png)
+}
+
+.MapHomeCardReact .oh_list_saved_icon {
+    background-image: url(b5211cbb91eadbb216e3249ca76f687c.png)
+}
+
+.MapHomeCardReact .dj_ie .oh_list_save_icon {
+    background-image: url(a49dcfcbb8466c83dba42bee17c62e48.png)
+}
+
+.MapHomeCardReact .dj_ie .oh_list_saved_icon {
+    background-image: url(1baceb55cbf64b514b030260d476fbaa.png)
+}
+
+.MapHomeCardReact .oh_list_save_icon {
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-right: 3px
+}
+
+.MapHomeCardReact .oh_list_save_spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 5px;
+    margin-left: 3px
+}
+
+.MapHomeCardReact .oh_list_saved_icon {
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-right: 3px
+}
+
+.MapHomeCardReact .oh_list_row .oh_list_action .Flyout {
+    left: 157px
+}
+
+.MapHomeCardReact .Flyout .ohFlyoutContent {
+    width: 250px;
+    padding: 5px
+}
+
+.MapHomeCardReact .home-sash-container .sash-text {
+    font-weight: 700
+}
+
+.HomeCard .notes {
+    display: block;
+    pointer-events: none
+}
+
+.HomeCard .notes .HomeAddress .region {
+    padding-top: 3px;
+    font-size: 10px;
+    color: #ccc
+}
+
+.HomeCard .notes .propertyNotesContainer .price .vowup .signin {
+    color: #fff
+}
+
+.HomeCard .notes .propertyNotesContainer .price .vowup .signin:hover {
+    text-decoration: underline
+}
+
+.HomeCard .HomeAddress {
+    float: left;
+    padding-bottom: 0 !important
+}
+
+.HomeCard.HomeCard .left-nav {
+    z-index: 5;
+    position: absolute;
+    padding: 5px;
+    top: 40%
+}
+
+.HomeCard.HomeCard .left-nav span {
+    display: inline-block
+}
+
+.HomeCard.HomeCard .right-nav {
+    z-index: 5;
+    position: absolute;
+    padding: 5px;
+    top: 40%
+}
+
+.HomeCard.HomeCard .right-nav span {
+    display: inline-block
+}
+
+.HomeCard .amenities {
+    margin: 0 16px;
+    border-bottom: 1px solid #f5f5f5
+}
+
+.HomeCard .amenities li {
+    line-height: 26px
+}
+
+.HomeCard .amenities li:nth-child(2) {
+    border-bottom: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5
+}
+
+.HomeCard .amenities .section-1 {
+    list-style-type: none;
+    display: inline-block;
+    width: 132px;
+    padding: 0
+}
+
+.HomeCard .amenities .section-1 .time-on-redfin-new .value {
+    color: #2e7e36;
+    font-weight: 700
+}
+
+.HomeCard .amenities .section-2 {
+    float: right;
+    display: inline-block;
+    width: 132px;
+    list-style-type: none;
+    padding: 0
+}
+
+.HomeCard .amenities .title {
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272
+}
+
+.HomeCard .amenities .value {
+    font-weight: 600;
+    font-size: 12px;
+    color: #333;
+    float: right
+}
+
+.HomeCard .single-unit {
+    background-color: #fff !important;
+    color: #fff !important
+}
+
+.HomeCard .pbar {
+    position: relative;
+    background-color: #7f8184;
+    color: #d2d3d4;
+    padding: 3px
+}
+
+.HomeCard .pbar .pbar_status {
+    text-align: center
+}
+
+.HomeCard .pbar .left-nav {
+    top: 0;
+    left: 5px
+}
+
+.HomeCard .pbar .right-nav {
+    top: 0;
+    right: 5px
+}
+
+.HomeCard .openhouse-save {
+    height: 29px;
+    width: 100%
+}
+
+.HomeCard .openhouse-save td {
+    vertical-align: middle
+}
+
+.HomeCard .ico_list_oh {
+    display: inline-block;
+    left: 5px;
+    top: 2px;
+    position: relative
+}
+
+.HomeCard .multi-unit {
+    margin: 15px 0 15px 10px;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #727272
+}
+
+.HomeCard .multi-unit .other-units {
+    color: #0c82a5
+}
+
+.HomeCard .top-right {
+    position: absolute;
+    top: 10px;
+    right: 0
+}
+
+.HomeCard .mls_logo_sm {
+    position: relative;
+    top: 0;
+    right: 5px;
+    float: left
+}
+
+.HomeCard .map-nav {
+    position: relative;
+    top: 0;
+    right: 0
+}
+
+.agent-extension a {
+    text-decoration: none
+}
+
+.agent-extension .agent-content {
+    height: 50px;
+    border-top: 1px solid #e2e2e2
+}
+
+.agent-extension .agent-content .agent-info {
+    margin-top: 11px
+}
+
+.agent-extension .agent-content .agent-info .agent-redfin-logo {
+    margin-top: 1px
+}
+
+.agent-extension .agent-content .agent-info .agent-badge-text {
+    color: #c82021;
+    line-height: 14px
+}
+
+.agent-extension .insight {
+    color: #727272
+}
+
+.agent-extension .insight .private {
+    color: #b22
+}
+
+.agent-extension .remark {
+    color: #727272;
+    line-height: 14px
+}
+
+.agent-extension .remark .private {
+    color: #b22
+}
+
+.avm-section-header {
+    display: block;
+    line-height: 50px;
+    font-size: 20px;
+    color: #333;
+    padding-left: 16px
+}
+
+.SharedSearchExtender {
+    margin-left: 10px
+}
+
+.SharedSearchExtender .favorite-status-message {
+    font-size: 13px;
+    font-size: .8125rem
+}
+
+.SharedFavoriteStatusbar {
+    display: table;
+    padding: 8px 0;
+    padding: 1rem 0 .4rem;
+    font-size: 16px;
+    font-size: 1rem
+}
+
+.SharedFavoriteStatusbar .favorite-status-icon {
+    padding-right: 5px;
+    display: table-cell;
+    vertical-align: text-top
+}
+
+.SharedFavoriteStatusbar .favorite-status-icon .single-heart {
+    height: 18px;
+    vertical-align: top;
+    width: 19px;
+    margin-top: -2px;
+    fill: #e62e2e
+}
+
+.SharedFavoriteStatusbar .favorite-status-icon .double-heart {
+    height: 30px;
+    vertical-align: top;
+    width: 25px;
+    margin-top: -9px;
+    fill: #e62e2e
+}
+
+.SharedFavoriteStatusbar .favorite-status-icon img.double-heart {
+    height: 16px;
+    width: 29px;
+    margin-top: 0
+}
+
+.SharedFavoriteStatusbar .favorite-status-icon img.single-heart {
+    height: 16px;
+    margin-top: 0
+}
+
+.SharedFavoriteStatusbar .favorite-status-message {
+    display: table-cell;
+    vertical-align: top;
+    line-height: 1em
+}
+
+.agent-photo.sidepane {
+    position: relative;
+    border: 1px solid #727272;
+    margin: 9px 10px 9px 0
+}
+
+.agent-photo.sidepane .agent-tag {
+    position: absolute;
+    top: -5px;
+    right: -5px
+}
+
+.agent-photo.sidepane .photo-container {
+    overflow: hidden;
+    height: 30px;
+    width: 30px
+}
+
+.agent-photo.sidepane .photo-container .photo {
+    width: 55px;
+    margin-left: -12.5px
+}
+
+.keyboard-shortcuts-dialog td {
+    line-height: 20px;
+    padding: .5rem 0
+}
+
+.keyboard-shortcuts-dialog .shortcut {
+    text-align: right
+}
+
+.keyboard-shortcuts-dialog .key {
+    color: #333;
+    border: 1px solid #999;
+    background: #f5f5f5;
+    border-radius: 2px;
+    padding: 2px 6px
+}
+
+.keyboard-shortcuts-dialog .key .SvgIcon {
+    height: 14px;
+    width: 14px;
+    vertical-align: middle
+}
+
+.keyboard-shortcuts-dialog .desc {
+    text-align: left;
+    padding-left: 5px
+}
+
+.shortStickyBanner .mapSavedSearchButton .saveSearchButtonContainer.mobile {
+    top: 130px
+}
+
+.saveSearchButtonContainer.mobile {
+    position: fixed;
+    -webkit-transition: opacity .2s ease-out 0s;
+    transition: opacity .2s ease-out 0s;
+    opacity: 1;
+    bottom: 44px;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 6;
+    overflow: hidden;
+    display: none
+}
+
+body.dialog-shown .saveSearchButtonContainer.mobile {
+    opacity: 0
+}
+
+.mapSavedSearchButton .saveSearchButtonContainer.mobile {
+    position: absolute;
+    width: 135px;
+    left: auto;
+    bottom: auto;
+    right: 15px;
+    top: 82px
+}
+
+.saveSearchButtonContainer.mobile.appearOnScroll {
+    display: block;
+    opacity: 1;
+    -moz-animation: display-none-to-block .2s ease-out 0s;
+    -webkit-animation: display-none-to-block .2s ease-out 0s;
+    animation: display-none-to-block .2s ease-out 0s
+}
+
+@-webkit-keyframes display-none-to-block {
+    0% {
+        display: none;
+        opacity: 0
+    }
+    1% {
+        display: block;
+        opacity: 0
+    }
+    to {
+        display: block;
+        opacity: 1
+    }
+}
+
+@-moz-keyframes display-none-to-block {
+    0% {
+        display: none;
+        opacity: 0
+    }
+    1% {
+        display: block;
+        opacity: 0
+    }
+    to {
+        display: block;
+        opacity: 1
+    }
+}
+
+@keyframes display-none-to-block {
+    0% {
+        display: none;
+        opacity: 0
+    }
+    1% {
+        display: block;
+        opacity: 0
+    }
+    to {
+        display: block;
+        opacity: 1
+    }
+}
+
+.saveSearchButtonContainer.mobile.static {
+    display: block;
+    opacity: 1
+}
+
+.saveSearchButtonContainer.mobile .saveSearchButton .Button {
+    margin: 0 auto;
+    width: 95%;
+    display: block;
+    padding: 0
+}
+
+.saveSearchButtonContainer:not(.mobile) .saveSearchButton.float-sidepane {
+    left: 343px
+}
+
+.saveSearchButtonContainer:not(.mobile) .saveSearchButton.save-search.search-saved .Button {
+    background-color: #fff;
+    padding-top: 8px
+}
+
+.saveSearchButtonContainer:not(.mobile) .saveSearchButton.save-search.search-saved .Button .button-text {
+    height: auto;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    white-space: nowrap;
+    line-height: normal
+}
+
+.saveSearchButtonContainer:not(.mobile) .saveSearchButton.save-search.search-saved .Button .button-text.truncate {
+    max-width: 102px
+}
+
+.saveSearchButtonContainer:not(.mobile) .saveSearchButton.save-search:hover.search-saved .Button .button-text.truncate {
+    max-width: none
+}
+
+.saveSearchButtonContainer:not(.mobile) .saveSearchButton .SvgIcon.edit {
+    width: 14px;
+    height: 14px;
+    vertical-align: bottom;
+    fill: #727272;
+    margin-left: 4px
+}
+
+.customer-facing .savedSearchFlyout.save-search-completed .Flyout>.flyout {
+    padding: 1.5rem
+}
+
+.customer-facing .savedSearchFlyout.save-search-completed .Flyout>.flyout>.header>.title {
+    font-size: 1.375rem;
+    font-weight: 400;
+    font-weight: 200
+}
+
+.customer-facing .savedSearchFlyout .Flyout {
+    position: absolute;
+    right: 65px
+}
+
+.customer-facing .savedSearchFlyout .container {
+    box-sizing: border-box
+}
+
+.customer-facing .savedSearchFlyout .container a:hover {
+    text-decoration: none
+}
+
+.customer-facing .savedSearchFlyout .container .messageContainer.success {
+    min-width: calc(344px - 3rem)
+}
+
+.customer-facing .savedSearchFlyout .container .messageContainer.success .EditSavedSearchForm .Notice {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.customer-facing .savedSearchFlyout .container .messageContainer.success .EditSavedSearchForm .Button {
+    margin-top: 1.5rem
+}
+
+.customer-facing .savedSearchFlyout .container .messageContainer.success .EditSavedSearchForm .Button,
+.customer-facing .savedSearchFlyout .container .messageContainer.success .EditSavedSearchForm .field.Text {
+    width: 100%
+}
+
+@media (min-width:1200px) {
+    .customer-facing .savedSearchFlyout .container .messageContainer.failure,
+    .customer-facing .savedSearchFlyout .container .messageContainer.saved {
+        white-space: nowrap
+    }
+}
+
+@media (min-width:600px) and (max-width:1199px) {
+    .customer-facing .savedSearchFlyout .container .messageContainer.failure,
+    .customer-facing .savedSearchFlyout .container .messageContainer.saved {
+        width: calc(100vw - 700px);
+        max-width: 320px;
+        min-width: 290px;
+        white-space: normal;
+        display: block
+    }
+    .customer-facing .savedSearchFlyout .container .messageContainer.failure.success,
+    .customer-facing .savedSearchFlyout .container .messageContainer.saved.success {
+        max-width: 380px
+    }
+}
+
+.customer-facing .savedSearchFlyout .container .messageContainer.failure>*,
+.customer-facing .savedSearchFlyout .container .messageContainer.saved>* {
+    display: inline
+}
+
+#saveSearchButton .arrow {
+    border-bottom-color: #fff
+}
+
+.sharedSearchFlyout {
+    position: absolute;
+    top: 53px;
+    left: 288px;
+    min-width: 630px
+}
+
+.pageRestructured .savedSearchFlyout .container>span {
+    white-space: normal
+}
+
+.MapNotice {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10050;
+    width: 100%
+}
+
+@media (min-width:600px) {
+    .MapNotice {
+        left: 50%;
+        width: 400px;
+        margin-left: -200px
+    }
+}
+
+.clusterMarkerFlyout {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    z-index: 2000
+}
+
+.clusterMarkerFlyout .title {
+    padding-top: 2px;
+    padding-bottom: 7px
+}
+
+.outerClusterMarker {
+    position: absolute;
+    opacity: 1;
+    z-index: 103
+}
+
+.outerClusterMarker.hovered {
+    z-index: 106
+}
+
+.clusterMarker {
+    position: absolute;
+    line-height: 0
+}
+
+.clusterMarker .clusterMarkerImage {
+    width: 50px;
+    height: 50px;
+    transition: transform .2s ease-in-out;
+    background-clip: padding-box;
+    background-color: #2e7e36;
+    border-style: solid;
+    border-color: rgba(72, 142, 59, .35);
+    border-radius: 50%;
+    opacity: .9
+}
+
+.clusterMarker.sold .clusterMarkerImage {
+    background-color: #5d8acb;
+    border-color: rgba(83, 168, 187, .35)
+}
+
+.clusterMarker.satellite .clusterMarkerImage {
+    border-color: hsla(0, 0%, 100%, .46)
+}
+
+.clusterMarker:hover .clusterMarkerImage {
+    transform: scale(1.2)
+}
+
+.clusterMarker .numHomes {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0;
+    color: #fff;
+    position: absolute;
+    z-index: 110;
+    opacity: .9;
+    font-family: Libre Franklin, -apple-system, BlinkMacSystemFont, Roboto, Droid Sans, Helvetica, Arial, sans-serif
+}
+
+.clusterMarker.digit_1 {
+    top: -17px;
+    left: -17px
+}
+
+.clusterMarker.digit_1 .clusterMarkerImage {
+    width: 16px;
+    height: 16px;
+    border-width: 5px
+}
+
+.clusterMarker.digit_2 {
+    top: -18px;
+    left: -18px
+}
+
+.clusterMarker.digit_2 .clusterMarkerImage {
+    width: 20px;
+    height: 20px;
+    border-width: 5px
+}
+
+.clusterMarker.digit_3 {
+    top: -26px;
+    left: -26px
+}
+
+.clusterMarker.digit_3 .clusterMarkerImage {
+    width: 28px;
+    height: 28px;
+    border-width: 6px
+}
+
+.clusterMarker.digit_4 {
+    top: -33.5px;
+    left: -33.5px
+}
+
+.clusterMarker.digit_4 .clusterMarkerImage {
+    width: 37px;
+    height: 37px;
+    border-width: 9px
+}
+
+.clusterMarker.digit_5 {
+    top: -38.5px;
+    left: -38.5px
+}
+
+.clusterMarker.digit_5 .clusterMarkerImage {
+    width: 44px;
+    height: 44px;
+    border-width: 9px
+}
+
+.clusterMarker.digit_6 {
+    top: -43.5px;
+    left: -43.5px
+}
+
+.clusterMarker.digit_6 .clusterMarkerImage {
+    width: 52px;
+    height: 52px;
+    border-width: 9px
+}
+
+.clusterMarker.digit_7 {
+    top: -51px;
+    left: -51px
+}
+
+.clusterMarker.digit_7 .clusterMarkerImage {
+    width: 62px;
+    height: 62px;
+    border-width: 10px
+}
+
+.clusterMarker.digit_8 {
+    top: -56px;
+    left: -56px
+}
+
+.clusterMarker.digit_8 .clusterMarkerImage {
+    width: 71px;
+    height: 71px;
+    border-width: 11px
+}
+
+.SchoolFlyout {
+    cursor: default
+}
+
+.SchoolFlyout .SimplePaginationBar {
+    background-color: #fff;
+    padding: 0
+}
+
+.SchoolFlyout .nextButton,
+.SchoolFlyout .paginationButton,
+.SchoolFlyout .prevButton {
+    display: -moz-inline-box;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1
+}
+
+.SchoolFlyout .nextButton,
+.SchoolFlyout .prevButton {
+    width: 22px;
+    height: 22px
+}
+
+.SchoolFlyout .address {
+    color: #727272
+}
+
+.SchoolFlyout a.Button {
+    margin-top: 20px
+}
+
+.Map {
+    background: #e5e3df;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none
+}
+
+.crosshair {
+    cursor: crosshair
+}
+
+#rf_mapcontent ::selection {
+    background: none
+}
+
+#rf_mapcontent ::-moz-selection {
+    background: none
+}
+
+.homePushpin {
+    position: absolute;
+    cursor: pointer
+}
+
+.homePushpin.animateMarkers {
+    -webkit-transition: left .4s ease-out .3s, top .4s ease-out .3s, opacity .3s ease-in-out;
+    -moz-transition: left .4s ease-out .3s, top .4s ease-out .3s, opacity .3s ease-in-out
+}
+
+.homePushpin>* {
+    display: inline-block
+}
+
+.home-tooltip {
+    font-size: 11px;
+    color: #000;
+    padding: 1px 2px;
+    border: 1px solid #677c94;
+    background-color: #e9edf2;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: top;
+    position: relative;
+    top: 5px
+}
+
+.school-marker {
+    position: absolute;
+    z-index: 996;
+    cursor: pointer
+}
+
+.homePushpin .Flyout.position-left {
+    top: -11px;
+    left: -3px
+}
+
+.homePushpin .Flyout.position-right {
+    top: -10px;
+    left: 20px
+}
+
+.homePushpin .Flyout.position-above {
+    top: -20px;
+    left: 9px
+}
+
+.homePushpin .Flyout.position-below {
+    top: -2px;
+    left: 8px
+}
+
+.outerClusterMarker.homePushpin .Flyout.position-left {
+    top: -14px;
+    left: -19px
+}
+
+.outerClusterMarker.homePushpin .Flyout.position-left .arrow {
+    border-left-color: #fff
+}
+
+.outerClusterMarker.homePushpin .Flyout.position-right {
+    top: -14px;
+    left: 12px
+}
+
+.outerClusterMarker.homePushpin .Flyout.position-right .arrow {
+    border-right-color: #fff
+}
+
+.outerClusterMarker.homePushpin .Flyout.position-above {
+    top: -32px;
+    left: -6px
+}
+
+.outerClusterMarker.homePushpin .Flyout.position-below {
+    top: 2px;
+    left: -4px
+}
+
+.outerClusterMarker.homePushpin .Flyout.position-below .arrow {
+    border-bottom-color: #fff
+}
+
+div.popContent ul.nobullets {
+    list-style-type: none
+}
+
+div.popContent ul.nobullets li {
+    list-style-image: none;
+    list-style-type: none
+}
+
+html.miniMapPopupHTML {
+    width: 700px;
+    min-width: 0;
+    min-height: 0
+}
+
+.miniMapPopupHTML body {
+    background-color: #e2e2e2;
+    min-width: 0;
+    min-height: 0
+}
+
+.miniMapPopup div {
+    font-size: 12px
+}
+
+body.nihilo .dijitDialog .dijitDialogPaneContent {
+    padding: 10px
+}
+
+.srsbPropTypeIcons img,
+div.srsbButton img.ico_list_for_sale {
+    height: 16px;
+    width: 15px
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper {
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.3;
+    max-width: 100%;
+    cursor: pointer;
+    padding: 0
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section {
+    height: 420px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-image: url(e2e050825592a2b5b786391fe6cae159.jpg)
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    color: #fff
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message {
+    padding: 10px 30px;
+    max-width: 100%;
+    height: 100%;
+    font-size: 14px;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr="#4D000000", endColorstr="#4D000000");
+    background: rgba(0, 0, 0, .3);
+    text-align: left
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message.ghostTown .title,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message.ghostTown .title {
+    text-align: left;
+    padding-top: 65px
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .title,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .title {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 200;
+    color: #fff;
+    padding-top: 30px
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats {
+    padding-top: 30px
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings {
+    padding-top: 5px
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starFullSvg,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starFullSvg {
+    display: inline
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starFullSvg .SvgIcon,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starFullSvg .SvgIcon {
+    width: 16px;
+    height: 16px;
+    fill: #ffb92e
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starHalfSvg,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starHalfSvg {
+    display: inline
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starHalfSvg .SvgIcon,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starHalfSvg .SvgIcon {
+    width: 16px;
+    height: 16px
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starHalfSvg .SvgIcon .Left,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starHalfSvg .SvgIcon .Left {
+    fill: #ffb92e
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starHalfSvg .SvgIcon .Right,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starHalfSvg .SvgIcon .Right {
+    fill: #e2e2e2
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starEmptySvg,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starEmptySvg {
+    display: inline
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starEmptySvg .SvgIcon,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .regionalAgentStats .stat-ratings .StarRating .starEmptySvg .SvgIcon {
+    width: 16px;
+    height: 16px;
+    fill: #e2e2e2
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .stat,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .stat {
+    padding-bottom: 5px
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .agentContactCTA,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .agentContactCTA {
+    margin-top: 30px
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .agentContactCTA .Button.tertiary-alt,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .agentContactCTA .Button.tertiary-alt {
+    border-color: transparent !important
+}
+
+.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .numActiveAgents,
+.region-content .region-content-section.agent-contact-with-regional-agent-stats-section-wrapper .agent-contact-section .message-wrapper .message .numActiveAgents {
+    margin-top: 20px
+}
+
+.stat {
+    color: #fff;
+    width: 100%;
+    padding: 2%;
+    display: block;
+    vertical-align: top;
+    text-align: left
+}
+
+.stat .stat-value {
+    font-size: 28px;
+    width: 70px;
+    vertical-align: top;
+    margin-right: 7px
+}
+
+.stat .stat-descriptors,
+.stat .stat-value {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    line-height: 80%
+}
+
+.stat .stat-descriptors {
+    width: auto;
+    vertical-align: middle;
+    font-size: 13px;
+    margin-top: 3px
+}
+
+.stat .stat-descriptors .star-ratings {
+    margin-top: 5px
+}
+
+.stat div {
+    width: 100%
+}
+
+.stat .starFull {
+    background-image: url(b647d52db0d4186ed620413b36d1c5e7.png)
+}
+
+.stat .starFull,
+.stat .starHalf {
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    background-position: 0 0
+}
+
+.stat .starHalf {
+    background-image: url(6f52a26ad914923a8019a273b05118c6.png)
+}
+
+.stat .starEmpty {
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    background-position: 0 0;
+    background-image: url(783c1aa7fd8f1bcd9149b2be688b0509.png)
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts {
+    width: 410px
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts>.content-wrapper {
+    overflow-x: hidden
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts>.content-wrapper>.content {
+    display: table;
+    width: 820px;
+    margin-left: 0;
+    -webkit-transition: margin-left .5s ease-in-out 0s;
+    transition: margin-left .5s ease-in-out 0s
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .LoginForm .LoginFormSlidingSectionContainer section {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .LoginForm .LoginFormSlidingSectionContainer section>div {
+    width: 362px;
+    box-sizing: border-box
+}
+
+@media screen and (max-width:599px) {
+    .customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .LoginForm .LoginFormSlidingSectionContainer section>div {
+        width: 100vw;
+        box-sizing: border-box
+    }
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .LoginForm .LoginFormSlidingSectionContainer .PRFEmailForm,
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .LoginForm .LoginFormSlidingSectionContainer .PRFInitialForm,
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .LoginForm .LoginFormSlidingSectionContainer .SignInEmailForm,
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .LoginForm .LoginFormSlidingSectionContainer .SignInInitialForm {
+    padding: 0
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .edit-saved-search-section,
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section {
+    display: table-cell;
+    width: 410px;
+    box-sizing: border-box;
+    vertical-align: top
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness {
+    padding: 0 24px 24px
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness hr {
+    border: 0 none;
+    border-top: 1px solid #e2e2e2
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .subHeadline {
+    margin-bottom: 1em;
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .middle {
+    display: table;
+    font-size: 16px;
+    font-size: 1rem;
+    margin: 15px 0;
+    color: #333
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .middle .listing_alerts_awareness_icon_email {
+    display: table-cell;
+    vertical-align: top
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .middle .rightOfIcon {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 320px
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .middle .titleSearchNamePrefix {
+    padding-bottom: 3px
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .passwordlessRegistrationForm,
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .signInForm {
+    max-width: 450px;
+    margin-top: 1rem;
+    padding: 0
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .register-section .loginWrapper {
+    padding: 0
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .register-section .orContainer {
+    margin-bottom: 11px
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .register-section .submitButtonWrapper,
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .register-section .submitButtonWrapper .submitButton {
+    width: 100%
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .register-section .signInForm .submitButtonWrapper {
+    margin-top: 0
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .register-section .emailInputWrapper {
+    margin-bottom: 24px
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .subscribe-section>* {
+    display: inline-block
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .subscribe-section .submitButtonWrapper {
+    margin-top: 29px
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .subscribe-section .cancel-button {
+    padding-left: 1em;
+    vertical-align: middle
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .privacy {
+    font-size: 16px;
+    font-size: 1rem;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 24px
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .privacy p {
+    margin: 0
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .privacy .disclaimer {
+    font-size: 12px;
+    font-size: .75rem;
+    margin-top: .5rem
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .edit-saved-search-section {
+    padding: 24px
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .edit-saved-search-section .field.Select.frequency {
+    margin-top: 18px;
+    min-width: 8rem
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .edit-saved-search-section .submitButtonWrapper {
+    margin-top: 1.5rem
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard.show-signin-register-section>.cell>.guts>.content-wrapper>.content {
+    margin-left: 0
+}
+
+.customer-facing .dialog-wrap .Dialog.v83.listingAlertsAwarenessDialog.standard.show-edit-saved-search-section>.cell>.guts>.content-wrapper>.content {
+    margin-left: -410px
+}
+
+.customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts>.header,
+.customer-facing .dialog-wrap:not(.full-screen) .Dialog.v83.listingAlertsAwarenessDialog.standard>.header {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px
+}
+
+@media screen and (max-width:599px) {
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts>.header {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+@media screen and (max-width:599px) {
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts {
+        width: 100%
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts>.content-wrapper>.content {
+        width: 200vw
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .edit-saved-search-section,
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section {
+        width: 100vw
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness {
+        padding-top: 24px;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: #fff
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .baseSignInForm,
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .middle,
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .passwordlessRegistrationForm,
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .topHeader {
+        padding-left: 24px;
+        padding-right: 24px
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .LoginForm .baseSignInForm,
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .LoginForm .passwordlessRegistrationForm {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .LoginForm .PRFEmailForm,
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .LoginForm .PRFInitialForm,
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .LoginForm .SignInEmailForm,
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .LoginForm .SignInInitialForm {
+        padding-left: 24px;
+        padding-right: 24px
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness hr {
+        margin-left: 24px;
+        margin-right: 24px
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .listingAlertsAwareness .registerSection {
+        max-width: none
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .signin-register-section .privacy {
+        padding-bottom: 150px
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .edit-saved-search-section .Notice {
+        margin-left: 0;
+        margin-right: 0
+    }
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .edit-saved-search-section .Button,
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard>.cell>.guts .edit-saved-search-section .field.Text {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:599px) {
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard.show-signin-register-section>.cell>.guts {
+        background-color: #f5f5f5
+    }
+}
+
+@media screen and (max-width:599px) {
+    .customer-facing .dialog-wrap.full-screen .Dialog.v83.listingAlertsAwarenessDialog.standard.show-edit-saved-search-section>.cell>.guts>.content-wrapper>.content {
+        margin-left: -100vw
+    }
+}
+
+.AppRatingsBanner {
+    height: 68px
+}
+
+@media screen and (min-width:562px) {
+    .AppRatingsBanner {
+        display: table
+    }
+}
+
+.AppRatingsBanner .content-container {
+    padding: 7px 0;
+    background-color: #fff;
+    font-size: 12px;
+    font-size: .75rem;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.45;
+    box-shadow: 0 3px 2px -2px #aaa;
+    border-radius: .1px;
+    position: relative;
+    z-index: 111
+}
+
+.AppRatingsBanner .content-container>* {
+    display: -moz-inline-box;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    vertical-align: middle
+}
+
+@media screen and (min-width:562px) {
+    .AppRatingsBanner .content-container>* {
+        display: table-cell
+    }
+}
+
+.AppRatingsBanner .sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10020
+}
+
+@media screen and (min-width:562px) {
+    .AppRatingsBanner .close {
+        width: 48px
+    }
+}
+
+.AppRatingsBanner .close .closeIcon {
+    fill: #b2b2b2;
+    width: 18px;
+    height: 18px;
+    margin: 0 20px 0 10px
+}
+
+@media screen and (min-width:562px) {
+    .AppRatingsBanner .contentWrapper {
+        text-align: center
+    }
+}
+
+.AppRatingsBanner .content {
+    display: inline-block
+}
+
+.AppRatingsBanner .content>* {
+    vertical-align: middle
+}
+
+.AppRatingsBanner .content .text {
+    height: 68px;
+    position: relative;
+    text-align: left
+}
+
+.AppRatingsBanner .content .text .appName {
+    font-weight: 700;
+    color: #333
+}
+
+.AppRatingsBanner .content .text .reviews {
+    color: #999;
+    font-weight: 400
+}
+
+.AppRatingsBanner .content .text .stars {
+    margin: 0 4px
+}
+
+.AppRatingsBanner .content .text .star {
+    fill: #ffb92e;
+    width: 13px;
+    height: 11px;
+    vertical-align: middle;
+    margin-bottom: 2px
+}
+
+.AppRatingsBanner .content .text .Button.compact.primary {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1px;
+    height: 30px;
+    line-height: 11px
+}
+
+@media screen and (min-width:375px) {
+    .AppRatingsBanner .content .reviewsString {
+        display: block
+    }
+    .AppRatingsBanner .content .text>* {
+        display: inline-block;
+        vertical-align: middle
+    }
+    .AppRatingsBanner .content .text .Button.compact.primary {
+        height: 34px;
+        position: static;
+        margin-left: 20px;
+        margin-top: auto;
+        margin-bottom: auto
+    }
+}
+
+.AppRatingsBanner.shortBanner {
+    height: 48px;
+    width: 100%
+}
+
+.AppRatingsBanner.shortBanner .close {
+    vertical-align: top
+}
+
+.AppRatingsBanner.shortBanner .close .closeIcon {
+    margin-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+
+.AppRatingsBanner.shortBanner .content .reviewsString {
+    display: inline-block
+}
+
+.AppRatingsBanner.shortBanner .content .text {
+    height: 34px;
+    position: static
+}
+
+.AppRatingsBanner.shortBanner .content .text>* {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.AppRatingsBanner.shortBanner .content .text .Button.compact.primary {
+    height: 34px
+}
+
+@media screen and (max-width:561px) {
+    .AppRatingsBanner.shortBanner .content .text .Button.compact.primary {
+        position: absolute;
+        margin-left: 0;
+        bottom: auto;
+        right: 10px
+    }
+}
+
+@media screen and (min-width:562px) {
+    .AppRatingsBanner.shortBanner .contentWrapper {
+        text-align: left
+    }
+    .AppRatingsBanner.shortBanner .contentWrapper .content .text {
+        position: absolute;
+        right: 20px;
+        top: 7px
+    }
+}
+
+.AdminTab {
+    position: fixed;
+    left: 5px;
+    z-index: 10010;
+    overflow: hidden;
+    bottom: -9000px
+}
+
+.AdminTab .tab {
+    border-radius: 4px 4px 0 0;
+    background: #e03b3c;
+    background: linear-gradient(top, #e03b3c, #c82021);
+    padding: 10px;
+    color: #f8f8f8;
+    font-size: 16px
+}
+
+.AdminTab .content {
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    color: #333;
+    background: #f2f2f2;
+    background: linear-gradient(top, #f2f2f2, #fff);
+    overflow: auto;
+    box-sizing: border-box;
+    white-space: nowrap
+}
+
+.AdminTab .content h2 {
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    padding-bottom: 5px
+}
+
+.AdminTab .content h3 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px
+}
+
+.AdminTab .content ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-position: inside
+}
+
+.AdminTab .content ul li {
+    list-style-type: square
+}
+
+.AdminTab .content a:hover {
+    cursor: pointer
+}
+
+.AdminTab.react {
+    pointer-events: none;
+    max-width: 500px
+}
+
+@media screen and (min-width:600px) {
+    .AdminTab.react {
+        max-width: none;
+        left: 5px
+    }
+}
+
+.AdminTab.react .content,
+.AdminTab.react .tab {
+    pointer-events: auto
+}
